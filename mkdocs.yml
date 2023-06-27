@@ -1,7 +1,9 @@
 site_name: oneko 的小窝
 site_url: https://qaqdev.github.io/
-repo_name: qaqdev/neko
+repo_name: qaqdev/oneko
 repo_url: https://github.com/qaqdev/qaqdev.github.io
+site_description: oneko 的小窝
+copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
 nav:
     - Home: index.md
     - About: about.md
@@ -17,8 +19,9 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - navigation.top
+  font: false
   palette:
-    scheme: default
+    - scheme: default
 
 markdown_extensions:
   - toc:
