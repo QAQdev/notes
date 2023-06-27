@@ -1,4 +1,4 @@
-site_name: oneko play with 🧶
+site_name: oneko 的小窝
 site_url: https://qaqdev.github.io/
 repo_name: qaqdev/neko
 repo_url: https://github.com/qaqdev/qaqdev.github.io
@@ -10,7 +10,7 @@ theme:
   language: 'zh'
   icon: 
     logo: material/notebook-outline
-  custom_dir: overrides
+  # custom_dir: overrides
   features:
     - content.code.annotate
     - navigation.tracking
