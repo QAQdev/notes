@@ -16,7 +16,7 @@ theme:
   icon:
     logo: material/cat
     admonition:
-      info: fontawesome/duotone/circle-info
+      info: fontawesome/solid/circle-info
       note: fontawesome/solid/pen-nib
       abstract: fontawesome/solid/list
       tip: fontawesome/solid/lightbulb
