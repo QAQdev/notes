@@ -12,9 +12,22 @@ nav:
 theme:
   name: material
   language: 'zh'
-  # favicon: 'logo.ico'
+  favicon: '../logo.ico'
   icon:
     logo: material/cat
+    admonition:
+      info: fontawesome/duotone/circle-info
+      note: fontawesome/solid/pen-nib
+      abstract: fontawesome/solid/list
+      tip: fontawesome/solid/lightbulb
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: material/alien
+      danger: fontawesome/solid/virus
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/link
   custom_dir: overrides
   features:
     - content.code.annotate
@@ -66,6 +79,9 @@ extra:
   analytics:
     provider: google
     property: G-JT9BRCXKJJ
+
+extra_css:
+  - css/admontion.css
 
 plugins:
   - search:
