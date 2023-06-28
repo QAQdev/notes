@@ -21,42 +21,59 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - navigation.top
+    - toc.follow # toc 跟随
   font:
-    text: Noto Serif SC # Roboto
-    code: Roboto Mono
+    text: Lato
+    code: Fira Code
   palette:
-    - scheme: default
+    primary: blue grey
+    scheme: default
 
 markdown_extensions:
-  - toc:
-      permalink: true
-      toc_depth: 4
-  - meta
-  - def_list
-  - attr_list
-  - md_in_html
-  - sane_lists
+- toc:
+      permalink: true # link for each title
+      slugify: !!python/name:pymdownx.slugs.uslugify # enable Unicode link
   - admonition
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - meta
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      # smart_enable: all
+  - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.snippets
-  - pymdownx.magiclink
-  - pymdownx.superfences
-  - pymdownx.inlinehilite
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets: # 允许将其他文件内容插入文件，语法是 --8<-- "filename.ext" 等，参见 https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#snippets-notation
+      auto_append:
+        - includes/abbreviations.md
+      base_path: ["docs"]
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.arithmatex:
-      generic: true
+  - pymdownx.tilde
 
 extra:
   analytics:
