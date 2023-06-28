@@ -1,0 +1,9 @@
+.md-typeset .admonition,
+.md-typeset details {
+    border: none;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+    box-shadow: var(--md-shadow-z2);
+}
