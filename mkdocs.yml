@@ -86,6 +86,6 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
- - statistics:
+  - statistics:
       page_check_metadata: comment
 
