@@ -12,10 +12,10 @@ nav:
 theme:
   name: material
   language: 'zh'
-  favicon: 'logo.ico'
+  # favicon: 'logo.ico'
   icon:
     logo: material/cat
-  # custom_dir: overrides
+  custom_dir: overrides
   features:
     - content.code.annotate
     - navigation.tracking
