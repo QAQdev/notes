@@ -4,6 +4,7 @@ repo_name: qaqdev/oneko
 repo_url: https://github.com/qaqdev/qaqdev.github.io
 site_description: oneko 的小窝
 copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
+
 nav:
     - Home: index.md
     - About: about.md
@@ -11,7 +12,8 @@ theme:
   name: material
   language: 'zh'
   icon: 
-    logo: material/notebook-outline
+    logo: material/cat
+  favicon: logo.ico
   # custom_dir: overrides
   features:
     - content.code.annotate
@@ -19,7 +21,9 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - navigation.top
-  font: false
+  font:
+    text: Noto Serif SC # Roboto
+    code: Roboto Mono
   palette:
     - scheme: default
 
@@ -53,3 +57,16 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.arithmatex:
       generic: true
+
+extra:
+  analytics:
+    provider: google
+    property: G-JT9BRCXKJJ
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - statistics
