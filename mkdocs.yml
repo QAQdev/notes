@@ -14,7 +14,7 @@ theme:
   icon: 
     logo: material/cat
   favicon: logo.ico
-  # custom_dir: overrides
+  custom_dir: overrides
   features:
     - content.code.annotate
     - navigation.tracking
@@ -30,7 +30,7 @@ theme:
     scheme: default
 
 markdown_extensions:
-- toc:
+  - toc:
       permalink: true # link for each title
       slugify: !!python/name:pymdownx.slugs.uslugify # enable Unicode link
   - admonition
