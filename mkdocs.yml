@@ -1,14 +1,14 @@
-site_name: onekoverse
+site_name: oneko verse
 site_url: https://qaqdev.github.io/
 repo_name: QAQdev/something
 repo_url: https://github.com/qaqdev/qaqdev.github.io
 edit_uri: "tree/master/docs"
-site_description: oneko 的小窝
+site_description: oneko 的
 copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
 
 nav:
-  - Home: index.md
-  - About: about.md
+  - 主页: index.md
+  - 关于: about.md
 
 theme:
   name: material
@@ -29,7 +29,9 @@ theme:
       bug: fontawesome/solid/bug
       example: fontawesome/solid/flask
       quote: fontawesome/solid/link
+
   custom_dir: overrides
+
   features:
     - content.code.annotate
     - content.code.copy
@@ -44,8 +46,19 @@ theme:
     text: Lato
     code: Fira Code
   palette:
-    primary: blue grey
-    scheme: default
+    - media: "(prefers-color-scheme: light)"
+      primary: blue
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      primary: blue
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 markdown_extensions:
   - toc:
@@ -91,9 +104,7 @@ extra:
       name: Github
 
 extra_css:
-  - css/admontion.css
-
-
+  - css/admonition.css
 
 plugins:
   - search:
