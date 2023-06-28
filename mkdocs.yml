@@ -1,4 +1,4 @@
-site_name: oneko 的小窝
+site_name: onekoverse
 site_url: https://qaqdev.github.io/
 repo_name: QAQdev/something
 repo_url: https://github.com/qaqdev/qaqdev.github.io
@@ -9,6 +9,7 @@ copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target
 nav:
   - Home: index.md
   - About: about.md
+
 theme:
   name: material
   language: 'zh'
@@ -17,20 +18,21 @@ theme:
     logo: material/cat
     admonition:
       info: fontawesome/solid/circle-info
-      note: fontawesome/solid/pen-nib
-      abstract: fontawesome/solid/list
+      note: fontawesome/solid/pen-fancy
+      abstract: fontawesome/solid/clipboard-list
       tip: fontawesome/solid/lightbulb
       success: fontawesome/solid/check
       question: fontawesome/solid/circle-question
       warning: fontawesome/solid/triangle-exclamation
-      failure: material/alien
+      failure: fontawesome/solid/xmark
       danger: fontawesome/solid/virus
-      bug: fontawesome/solid/robot
+      bug: fontawesome/solid/bug
       example: fontawesome/solid/flask
       quote: fontawesome/solid/link
   custom_dir: overrides
   features:
     - content.code.annotate
+    - content.code.copy
     - navigation.tracking
     - navigation.tabs
     - navigation.indexes
@@ -47,7 +49,7 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 4
-      # slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}} # enable Unicode link
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}} # enable Unicode link
   - meta
   - def_list
   - attr_list
@@ -74,6 +76,7 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+      use_pygments: true
   - pymdownx.arithmatex:
       generic: true
 
@@ -93,5 +96,6 @@ plugins:
       timezone: Asia/Shanghai
       locale: zh
       enable_creation_date: true
-  - statistics
+  - statistics:
+
 
