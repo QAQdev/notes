@@ -60,10 +60,6 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.snippets
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.inlinehilite
@@ -76,6 +72,8 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.arithmatex:
       generic: true
 
