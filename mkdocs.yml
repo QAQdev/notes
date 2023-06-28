@@ -37,6 +37,8 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - navigation.top
+    - search.highlight
+    - search.share
     - toc.follow # toc 跟随
   font:
     text: Lato
@@ -74,9 +76,8 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
       use_pygments: true
+      pygments_lang_class: true
   - pymdownx.arithmatex:
       generic: true
 
@@ -84,9 +85,15 @@ extra:
   analytics:
     provider: google
     property: G-JT9BRCXKJJ
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/QAQdev
+      name: Github
 
 extra_css:
   - css/admontion.css
+
+
 
 plugins:
   - search:
