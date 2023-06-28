@@ -12,9 +12,9 @@ nav:
 theme:
   name: material
   language: 'zh'
+  favicon: 'logo.ico'
   icon:
     logo: material/cat
-  logo: logo.ico
   # custom_dir: overrides
   features:
     - content.code.annotate
@@ -33,7 +33,6 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true # link for each title
-      slugify: !!python/name:pymdownx.slugs.uslugify # enable Unicode link
   - admonition
   - abbr
   - attr_list
@@ -44,8 +43,6 @@ markdown_extensions:
   - md_in_html
   - pymdownx.arithmatex:
       generic: true
-  - pymdownx.betterem:
-      # smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
