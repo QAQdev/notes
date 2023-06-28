@@ -14,7 +14,7 @@ theme:
   icon: 
     logo: material/cat
   favicon: logo.ico
-  custom_dir: overrides
+  # custom_dir: overrides
   features:
     - content.code.annotate
     - navigation.tracking
