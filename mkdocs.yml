@@ -97,5 +97,3 @@ plugins:
       locale: zh
       enable_creation_date: true
   - statistics:
-
-
