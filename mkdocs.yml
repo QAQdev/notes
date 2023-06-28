@@ -1,19 +1,20 @@
 site_name: oneko 的小窝
 site_url: https://qaqdev.github.io/
-repo_name: qaqdev/oneko
+repo_name: QAQdev/something
 repo_url: https://github.com/qaqdev/qaqdev.github.io
+edit_uri: tree/master/docs
 site_description: oneko 的小窝
 copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
 
 nav:
-    - Home: index.md
-    - About: about.md
+  - Home: index.md
+  - About: about.md
 theme:
   name: material
   language: 'zh'
-  icon: 
+  icon:
     logo: material/cat
-  favicon: logo.ico
+  logo: logo.ico
   # custom_dir: overrides
   features:
     - content.code.annotate
@@ -60,10 +61,6 @@ markdown_extensions:
       repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.snippets: # 允许将其他文件内容插入文件，语法是 --8<-- "filename.ext" 等，参见 https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#snippets-notation
-      auto_append:
-        - includes/abbreviations.md
-      base_path: ["docs"]
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -79,6 +76,9 @@ extra:
   analytics:
     provider: google
     property: G-JT9BRCXKJJ
+  social:
+    - type: github
+      link: https://github.com/QAQdev/qaqdev.github.io
 
 plugins:
   - search:
@@ -86,4 +86,6 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
-  - statistics
+ - statistics:
+      page_check_metadata: comment
+
