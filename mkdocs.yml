@@ -39,6 +39,7 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - navigation.top
+    - search.suggest
     - search.highlight
     - search.share
     - toc.follow # toc 跟随
@@ -111,8 +112,7 @@ extra_css:
   - css/admonition.css
 
 plugins:
-  - search:
-      separator: '[\s\u200b\-]'
+  - search
   - git-revision-date-localized:
       type: datetime
       timezone: Asia/Shanghai
