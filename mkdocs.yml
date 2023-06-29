@@ -7,7 +7,7 @@ site_description: oneko verse
 copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
 
 nav:
-  - 主页⭐️:
+  - 主页🚩:
     - index.md
     - Setup: setup.md
   - 关于: about.md
