@@ -3,7 +3,7 @@ site_url: https://qaqdev.github.io/
 repo_name: QAQdev/something
 repo_url: https://github.com/qaqdev/qaqdev.github.io
 edit_uri: "tree/master/docs"
-site_description: oneko 的
+site_description: oneko verse
 copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
 
 nav:
@@ -97,11 +97,15 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: G-JT9BRCXKJJ
+    property: G-XVCQ01HH08
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/QAQdev
       name: Github
+    - icon: fontawesome/solid/dove
+      link: https://www.yuque.com/oneko/something
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:zhenglin.cheng.cc@gmail.com
 
 extra_css:
   - css/admonition.css
@@ -115,4 +119,3 @@ plugins:
       locale: zh
       enable_creation_date: true
   - statistics
-  - optimize
