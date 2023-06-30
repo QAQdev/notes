@@ -7,10 +7,11 @@ site_description: oneko verse
 copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
 
 nav:
-  - 主页🚩:
+  - 🚩 主页:
     - index.md
-    - Setup: setup.md
-  - 关于: about.md
+    - 🪜 起于累土: setup.md
+    - 📅 最近: recent.md
+  - 😼 关于: about.md
 
 theme:
   name: material
@@ -122,3 +123,4 @@ plugins:
       locale: zh
       enable_creation_date: true
   - statistics
+  - changelog

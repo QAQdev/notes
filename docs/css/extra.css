@@ -1,5 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
 
 .ma-shan-zheng {
     font-family: 'Ma Shan Zheng', serif;
+}
+
+.noto-serif-sc {
+    font-family: 'Noto Serif SC', serif;
+    font-feature-settings: 'palt';
+}
+
+/* changlog 的 css */
+/* @media(prefers-color-scheme: light) { */
+    .timeline-content::before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        background-color: rgb(114, 180, 255);
+        left: -10px;
+        top: calc(50% - 10px);
+        box-shadow: var(--md-shadow-z3);
+        color-scheme: var(--md-color-scheme);
+    }
+    .timeline-card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background: linear-gradient(70deg, rgb(114, 180, 255), rgb(185, 209, 242));
+        border-radius: .25rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 10px;
+        box-shadow: var(--md-shadow-z3);
+        color-scheme: var(--md-color-scheme);
+    }
+/* } */
+
+.changelog-type-newpage {
+    background-color: #4bbe5ce3;
+}
+
+.changelog-type-newpage::before {
+    content: "新增页面";
+}
+
+.changelog-type-pageupdate {
+    background-color: #f7a9a9;
+}
+.changelog-type-pageupdate::before {
+    content: "页面更新";
 }

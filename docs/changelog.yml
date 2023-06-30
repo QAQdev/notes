@@ -1,0 +1,16 @@
+- 2023:
+  - "2023-06-30":
+    - pageupdate:
+        text: 插件 > setup.md
+        href: /setup/
+  - "2023-06-28":
+    - newpage:
+        text: 工具资源记录 > setup.md
+        href: /setup/ 
+  - "2023-06-27":
+    - newpage:
+        text: 九层之台，起于累土：我搭建了个人网页！> index.md
+        href: /
+    - newpage:
+        text: 个人介绍 > about.md
+        href: /about/
