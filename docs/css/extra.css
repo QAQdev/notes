@@ -57,3 +57,10 @@
 .changelog-type-pageupdate::before {
     content: "页面更新";
 }
+
+.changelog-type-function {
+    background-color: #cca819;
+}
+.changelog-type-function::before {
+    content: "功能性更新";
+}

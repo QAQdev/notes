@@ -3,6 +3,7 @@
     - pageupdate:
         text: 插件 > setup.md
         href: /setup/
+    - function: 接入 changelog 插件
   - "2023-06-28":
     - newpage:
         text: 工具资源记录 > setup.md
@@ -14,3 +15,4 @@
     - newpage:
         text: 个人介绍 > about.md
         href: /about/
+    - function: 加入评论区、黑夜/白天切换

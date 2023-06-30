@@ -22,6 +22,7 @@ jobs:
       - run: pip install jieba
       - run: pip install rich
       - run: pip install mkdocs-statistics-plugin
+      - run: pip install mkdocs-changelog-plugin
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
