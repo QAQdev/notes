@@ -1,9 +1,11 @@
 .md-typeset .admonition,
 .md-typeset details {
     border: none;
+    font-size: 90%;
 }
 
 .md-typeset .admonition,
 .md-typeset details {
     box-shadow: var(--md-shadow-z2);
+    font-size: 85%;
 }
