@@ -1,6 +1,6 @@
-# 搭建本网站的工具和资源
+# 搭建本网站的脚手架
 
-主要基于 [Material Mkdocs](https://squidfunk.github.io/mkdocs-material/) 和 [Github Pages](https://pages.github.com/) 进行搭建，其中涉及到了很多定制化的工具，我尽量在此列出，以便查询。
+主要基于 [Material Mkdocs](https://squidfunk.github.io/mkdocs-material/) 和 [Github Pages](https://pages.github.com/) 进行搭建，其中涉及到了很多定制化的工具和资源，我尽量在此列出，以便查询。
 
 !!! abstract "图标库 & 字体库"
     !!! tip "图标"
@@ -16,3 +16,6 @@
     - `comment system`: 搭建评论区，可以直接使用基于 Github Discussions 的 [giscus](https://giscus.app/)
     - `statistics`: 页面分析插件，可以在 [这里](https://github.com/TonyCrane/mkdocs-statistics-plugin) 找到教程
     - `changlog`: 以列表形式展示更新日志，可以在 [这里](https://github.com/TonyCrane/mkdocs-changelog-plugin) 找到教程
+
+!!! abstract "前端美化"
+    - 渐变色调色盘：https://webgradients.com/?ref=iamxk

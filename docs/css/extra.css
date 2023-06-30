@@ -11,18 +11,18 @@
 }
 
 /* changlog 的 css */
-/* @media(prefers-color-scheme: light) { */
+
+@media(prefers-color-scheme: dark) {
     .timeline-content::before {
         content: "";
         position: absolute;
         width: 20px;
         height: 20px;
         transform: rotate(45deg);
-        background-color: rgb(114, 180, 255);
+        background-color: #BCC5CE;
         left: -10px;
         top: calc(50% - 10px);
-        box-shadow: var(--md-shadow-z3);
-        color-scheme: var(--md-color-scheme);
+        box-shadow: var(--md-shadow-z2);
     }
     .timeline-card {
         position: relative;
@@ -32,16 +32,19 @@
         flex-direction: column;
         min-width: 0;
         word-wrap: break-word;
-        background: linear-gradient(70deg, rgb(114, 180, 255), rgb(185, 209, 242));
+        /* background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+        background-blend-mode: screen; */
+        background: #C9CCD3;
+        background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+        background-blend-mode: lighten;
         border-radius: .25rem;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 15px;
         padding-right: 10px;
-        box-shadow: var(--md-shadow-z3);
-        color-scheme: var(--md-color-scheme);
+        box-shadow: var(--md-shadow-z1);
     }
-/* } */
+}
 
 .changelog-type-newpage {
     background-color: #4bbe5ce3;

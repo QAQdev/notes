@@ -7,11 +7,15 @@ site_description: oneko verse
 copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
 
 nav:
-  - 🚩 主页:
+  - 🚩 Home:
     - index.md
     - 🪜 起于累土: setup.md
     - 📅 最近: recent.md
-  - 😼 关于: about.md
+  - 🏫 @ZJU:
+    - "@ZJU/index.md"
+    - 离散数学:
+      - "@ZJU/dm/ch2.md"
+  - 😼 About: about.md
 
 theme:
   name: material
@@ -69,6 +73,7 @@ markdown_extensions:
       permalink: true
       toc_depth: 4
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}} # enable Unicode link
+  - tables
   - meta
   - def_list
   - attr_list
@@ -114,6 +119,17 @@ extra:
 extra_css:
   - css/admonition.css
   - css/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+extra_javascript:
+  - js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - js/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - js/tablesort.js
 
 plugins:
   - search

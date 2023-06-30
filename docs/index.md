@@ -17,7 +17,7 @@ statistics: true
     </div>     
 
 !!! success inline "语雀"
-    - 最早的笔记是记录在语雀上的，但现在准备逐步迁移了！  
+    - 最早的笔记是记录在语雀上的，但现在准备逐步迁移了！ 
     - 我的 **[语雀](https://www.yuque.com/oneko/something)**，可以来逛逛👋🏻
 
 !!! tip "看这里！"
