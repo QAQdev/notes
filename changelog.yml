@@ -8,6 +8,7 @@
     - newpage:
         text: 工具资源记录 > setup.md
         href: /setup/ 
+    - function: 接入 Google Analysis 
   - "2023-06-27":
     - newpage:
         text: 九层之台，起于累土：我搭建了个人网页！> index.md
@@ -15,4 +16,4 @@
     - newpage:
         text: 个人介绍 > about.md
         href: /about/
-    - function: 加入评论区、黑夜/白天切换
+    - function: 加入评论区、深色/浅色模式切换
