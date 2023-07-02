@@ -4,6 +4,9 @@ statistics: true
 
 # 欢迎进入 oneko verse！🐱‍💻
 
+!!! oneko "oneko 出没"
+    <center>在本页面上，**oneko** 会跟着你一块跑动哦！</center>
+
 !!! note "杂谈"
     <div class="noto-serif-sc" style="font-size:30px;font-weight:bold;padding: 0 15px;">
         『
