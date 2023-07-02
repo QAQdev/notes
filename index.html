@@ -524,7 +524,7 @@
   
     <li class="md-nav__item">
       <a href="%40ZJU/dm/ch2/" class="md-nav__link">
-        Ch2. Basic Structures 🚧
+        Ch2. Basic Structures
       </a>
     </li>
   
@@ -667,7 +667,7 @@
     data-reactions-enabled="1"
     data-emit-metadata="0"
     data-input-position="top"
-    data-theme="preferred_color_scheme"
+    data-theme="light"
     data-lang="zh-CN"
     data-loading="lazy"
     crossorigin="anonymous"
@@ -691,7 +691,7 @@
       ref.addEventListener("change", function() {
         var palette = __md_get("__palette")
         if (palette && typeof palette.color === "object") {
-          var theme = "light"
+          var theme = palette.color.scheme === "default" ? "light" : "noborder_dark"
 
           /* Instruct Giscus to change theme */
           var frame = document.querySelector(".giscus-frame")
