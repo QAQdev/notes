@@ -10,7 +10,7 @@ nav:
   - 🚩 Home:
     - index.md
     - 🪜 起于累土: setup.md
-    - 📅 最近: recent.md
+    - 📅 更新记录: recent.md
   - 🏫 @ZJU:
     - "@ZJU/index.md"
     - 离散数学:
@@ -71,7 +71,6 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
-      toc_depth: 4
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}} # enable Unicode link
   - tables
   - meta
