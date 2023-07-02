@@ -118,6 +118,7 @@ extra:
 extra_css:
   - css/admonition.css
   - css/extra.css
+  - css/changelog.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 extra_javascript:
