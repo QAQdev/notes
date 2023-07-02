@@ -4,6 +4,7 @@
         text: 离散数学 Ch2 迁移完成> dm/ch2.md
         href: /%40ZJU/dm/ch2/
     - function: 适配了 changelog 在深色/浅色模式下的显示（https://github.com/TonyCrane/mkdocs-changelog-plugin/issues/3）
+    - function: 修复了评论区深浅切换的bug
   - "2023-06-30":
     - newpage:
         text: 离散数学 Ch2 > dm/ch2.md
