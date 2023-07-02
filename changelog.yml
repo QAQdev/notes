@@ -1,5 +1,13 @@
 - 2023:
+  - "2023-07-01":
+    - pageupdate:
+        text: 离散数学 Ch2 迁移完成> dm/ch2.md
+        href: /%40ZJU/dm/ch2/
+    - function: 适配了 changelog 在深色/浅色模式下的显示（https://github.com/TonyCrane/mkdocs-changelog-plugin/issues/3）
   - "2023-06-30":
+    - newpage:
+        text: 离散数学 Ch2 > dm/ch2.md
+        href: /%40ZJU/dm/ch2/
     - pageupdate:
         text: 插件 > setup.md
         href: /setup/
