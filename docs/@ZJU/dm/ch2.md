@@ -1,4 +1,4 @@
-# Ch2. Basic Structures 🚧
+# Ch2. Basic Structures
 
 ## Sets
 
