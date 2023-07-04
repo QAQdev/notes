@@ -22,7 +22,9 @@
 
 
 <script>
-  const apiUrl = `http://121.4.99.100:5708/apod`;
+const apiKey = 'NmJMd2hpUVJUbEJkWDlhNTdZQnJNZjU5S2lGWEMwN25kbHhicGxhRw==';
+const k = atob(apiKey);
+const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${k}`;
 
   fetch(apiUrl)
     .then(response => response.json())
