@@ -40,4 +40,14 @@
          <lastmod>2023-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://qaqdev.github.io/Playground/</loc>
+         <lastmod>2023-07-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/Playground/NASA/</loc>
+         <lastmod>2023-07-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>

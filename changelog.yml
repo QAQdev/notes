@@ -1,6 +1,7 @@
 - 2023:
-  - "2023-07-03":
-    - function: 加入了每日诗词 
+  - "2023-07-04":
+    - function: 加入了每日诗词
+    - function: 接入了 NASA 每日天文图片 API
   - "2023-07-02":
     - pageupdate:
         text: 离散数学 Ch2 迁移完成> dm/ch2.md
