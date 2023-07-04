@@ -11,15 +11,18 @@ nav:
     - index.md
     - 🪜 起于累土: setup.md
     - 📅 更新记录: recent.md
-  - 🏫 @ZJU:
+  - "@ZJU":
     - "@ZJU/index.md"
     - 离散数学:
       - "@ZJU/dm/ch2.md"
-  - 🏞️ Life:
+  - Life:
     - "Life/index.md"
     - Interns:
       - "Life/Interns/meituan.md"
-  - 😼 About: about.md
+  - Playground:
+    - Playground/index.md
+    - Playground/NASA.md
+  - About: about.md
 
 theme:
   name: material

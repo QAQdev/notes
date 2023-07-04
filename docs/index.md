@@ -2,7 +2,7 @@
 statistics: true
 ---
 
-# 欢迎进入 oneko verse！🐱‍💻
+# 欢迎进入 oneko verse！😼💻
 
 ???+ oneko "oneko 出没"
     <center>在本页面上，**oneko** 会跟着你一块跑动！</center>
