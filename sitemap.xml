@@ -2,32 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://qaqdev.github.io/</loc>
-         <lastmod>2023-07-02</lastmod>
+         <lastmod>2023-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qaqdev.github.io/about/</loc>
-         <lastmod>2023-07-02</lastmod>
+         <lastmod>2023-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qaqdev.github.io/recent/</loc>
-         <lastmod>2023-07-02</lastmod>
+         <lastmod>2023-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qaqdev.github.io/setup/</loc>
-         <lastmod>2023-07-02</lastmod>
+         <lastmod>2023-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qaqdev.github.io/%40ZJU/</loc>
-         <lastmod>2023-07-02</lastmod>
+         <lastmod>2023-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qaqdev.github.io/%40ZJU/dm/ch2/</loc>
-         <lastmod>2023-07-02</lastmod>
+         <lastmod>2023-07-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/Life/</loc>
+         <lastmod>2023-07-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/Life/Interns/meituan/</loc>
+         <lastmod>2023-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
