@@ -15,6 +15,10 @@ nav:
     - "@ZJU/index.md"
     - 离散数学:
       - "@ZJU/dm/ch2.md"
+  - 🏞️ Life:
+    - "Life/index.md"
+    - Interns:
+      - "Life/Interns/meituan.md"
   - 😼 About: about.md
 
 theme:
@@ -35,7 +39,7 @@ theme:
       danger: fontawesome/solid/virus
       bug: fontawesome/solid/bug
       example: fontawesome/solid/flask
-      quote: fontawesome/solid/link
+      # quote: fontawesome/solid/quote
 
   custom_dir: overrides
 
@@ -131,6 +135,7 @@ extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - js/tablesort.js
   - js/oneko/oneko.js
+  # - "https://2gether.video/release/extension.website.user.js"
 
 
 plugins:

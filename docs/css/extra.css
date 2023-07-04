@@ -17,3 +17,21 @@
     margin-right: auto;
     width: 75%;
 }
+
+#videoTogetherLoading {
+    touch-action: none;
+    height: 50px;
+    border: 1px solid #c9c8c8;
+    background: #000000;
+    color: #212529;
+    display: flex;
+    align-items: center;
+    z-index: 2147483646;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+    border-radius: 5px;
+}

@@ -4,8 +4,22 @@ statistics: true
 
 # 欢迎进入 oneko verse！🐱‍💻
 
-!!! oneko "oneko 出没"
-    <center>在本页面上，**oneko** 会跟着你一块跑动哦！</center>
+???+ oneko "oneko 出没"
+    <center>在本页面上，**oneko** 会跟着你一块跑动！</center>
+
+!!! quote "一句"
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <div class="noto-serif-sc" align="center" style="font-size:18px;" id="poem_sentence"></div>
+    <br>
+    <div class="noto-serif-sc" align="right" style="font-size:13px;" id="poem_info"></div>
+    <script type="text/javascript">
+        jinrishici.load(function(result) {
+            var sentence = document.querySelector("#poem_sentence")
+            var info = document.querySelector("#poem_info")
+            sentence.innerHTML = result.data.content
+            info.innerHTML = result.data.origin.dynasty + ' ' + result.data.origin.author + '《' + result.data.origin.title + '》'
+        });
+    </script>
 
 !!! note "杂谈"
     <div class="noto-serif-sc" style="font-size:30px;font-weight:bold;padding: 0 15px;">
