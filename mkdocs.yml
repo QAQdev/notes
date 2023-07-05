@@ -138,6 +138,7 @@ extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - js/tablesort.js
   - js/oneko/oneko.js
+  - js/playground/nasa.js
   # - "https://2gether.video/release/extension.website.user.js"
 
 
