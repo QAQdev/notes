@@ -1,32 +1,36 @@
 - 2023:
+  - "2023-07-08":
+    - newpage:
+        text: Kafka 学习笔记 -> tech/kafka/
+        href: /tech/kafka/overview/
   - "2023-07-04":
-    - function: 加入了每日诗词
+    - function: 接入了每日诗词 API
     - function: 接入了 NASA 每日天文图片 API
   - "2023-07-02":
     - pageupdate:
-        text: 离散数学 Ch2 迁移完成> dm/ch2.md
-        href: /%40ZJU/dm/ch2/
+        text: 离散数学 Ch2 迁移完成 -> dm/ch2.md
+        href: /zju/dm/ch2/
     - function: 适配了 changelog 在深色/浅色模式下的显示（https://github.com/TonyCrane/mkdocs-changelog-plugin/issues/3）
     - function: 加入了 oneko! 
     - bugfix: 修复了评论区深浅切换的 bug
   - "2023-06-30":
     - newpage:
-        text: 离散数学 Ch2 > dm/ch2.md
-        href: /%40ZJU/dm/ch2/
+        text: 离散数学 Ch2 -> dm/ch2.md
+        href: /zju/dm/ch2/
     - pageupdate:
-        text: 插件 > setup.md
+        text: 插件记录 -> setup.md
         href: /setup/
     - function: 接入 changelog 插件
   - "2023-06-28":
     - newpage:
-        text: 工具资源记录 > setup.md
+        text: 工具资源记录 -> setup.md
         href: /setup/ 
     - function: 接入 Google Analysis 
   - "2023-06-27":
     - newpage:
-        text: 九层之台，起于累土：我搭建了个人网页！> index.md
+        text: 九层之台，起于累土：我搭建了个人网页！-> index.md
         href: /
     - newpage:
-        text: 个人介绍 > about.md
+        text: 个人介绍 -> about.md
         href: /about/
     - function: 加入评论区、深色/浅色模式切换

@@ -12,16 +12,21 @@ nav:
     - 🪜 起于累土: setup.md
     - 📅 更新记录: recent.md
   - "@ZJU":
-    - "@ZJU/index.md"
+    - "zju/index.md"
     - 离散数学:
-      - "@ZJU/dm/ch2.md"
+      - "zju/dm/ch2.md"
+  - Tech:
+    - Kafka:
+      - "tech/kafka/overview.md"
+      - "tech/kafka/concepts.md"
   - Life:
-    - "Life/index.md"
+    - "life/index.md"
     - Interns:
-      - "Life/Interns/meituan.md"
+      - "life/interns/meituan.md"
   - Playground:
-    - Playground/index.md
-    - Playground/NASA.md
+    - playground/index.md
+    - playground/nasa.md
+    # - playground/historical_codes.md
   - About: about.md
 
 theme:
@@ -139,6 +144,7 @@ extra_javascript:
   - js/tablesort.js
   - js/oneko/oneko.js
   - js/playground/nasa.js
+  # - js/playground/codes.js
   # - "https://2gether.video/release/extension.website.user.js"
 
 

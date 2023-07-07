@@ -19,5 +19,3 @@
     > <div id="apod-desc"></div>
 
     <div id="apod-image"></div>
-
-<script src="#/docs/js/playground/nasa.js"></script>
