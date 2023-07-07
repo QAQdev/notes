@@ -26,7 +26,6 @@ nav:
   - Playground:
     - playground/index.md
     - playground/nasa.md
-    # - playground/historical_codes.md
   - About: about.md
 
 theme:
