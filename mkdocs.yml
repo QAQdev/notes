@@ -20,7 +20,7 @@ nav:
       - "tech/kafka/overview.md"
       - "tech/kafka/concepts.md"
   - Life:
-    - "life/index.md"
+    - life/index.md
     - Interns:
       - "life/interns/meituan.md"
   - Playground:
@@ -46,7 +46,8 @@ theme:
       danger: fontawesome/solid/virus
       bug: fontawesome/solid/bug
       example: fontawesome/solid/flask
-      # quote: fontawesome/solid/quote
+      # quote: material/format-quote-open
+      quote: fontawesome/solid/quote-left
 
   custom_dir: overrides
 
