@@ -46,6 +46,31 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://qaqdev.github.io/life/</loc>
+         <lastmod>2023-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/life/interns/meituan/</loc>
+         <lastmod>2023-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/playground/</loc>
+         <lastmod>2023-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/playground/historical_codes/</loc>
+         <lastmod>2023-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/playground/nasa/</loc>
+         <lastmod>2023-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://qaqdev.github.io/tech/kafka/concepts/</loc>
          <lastmod>2023-07-08</lastmod>
          <changefreq>daily</changefreq>
