@@ -23,9 +23,11 @@ nav:
     - life/index.md
     - Interns:
       - "life/interns/meituan.md"
+    - life/past3years.md
   - Playground:
     - playground/index.md
     - playground/nasa.md
+    - playground/historical_codes.md
   - About: about.md
 
 theme:
@@ -144,8 +146,6 @@ extra_javascript:
   - js/tablesort.js
   - js/oneko/oneko.js
   - js/playground/nasa.js
-  # - js/playground/codes.js
-  # - "https://2gether.video/release/extension.website.user.js"
 
 
 plugins:

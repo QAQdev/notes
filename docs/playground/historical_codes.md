@@ -11,14 +11,19 @@
 
 !!! example "Historical Codes"
     <h4 style="text-align: center;font-weight:bold;" id="title"></h4>
-    <div id="code"></div>
-    ${data}
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <pre><code id="code"></code></pre>
+    <div id="history"></div>
+    <div><a id="link"></a></div>
 
 <script>
     const codes = [
         {
             "title": "Summary from Microsoft BASIC 6502 Original Source Code from 1978 written by Bill Gates and Paul Allen",
-            "code": "================================================================================================\nFILE: \"david mac g5 b:m6502.asm\"\n================================================================================================\n \n000001  TITLE   BASIC M6502 8K VER 1.1 BY MICRO-SOFT\n[...]\n006955          END     $Z+START\n \nEnd of File -- Lines: 6955 Characters: 154740\n \nSUMMARY:\n \n  Total number of files : 1\n  Total file lines      : 6955\n  Total file characters : 154740\n  \n  \n \nPAUL ALLEN WROTE THE NON-RUNTIME STUFF.\nBILL GATES WROTE THE RUNTIME STUFF.\nMONTE DAVIDOFF WROTE THE MATH PACKAGE.",
+            "code": "============================================================================================\nFILE: \"david mac g5 b:m6502.asm\"\n============================================================================================\n \n000001  TITLE   BASIC M6502 8K VER 1.1 BY MICRO-SOFT\n[...]\n006955          END     $Z+START\n \nEnd of File -- Lines: 6955 Characters: 154740\n \nSUMMARY:\n \n  Total number of files : 1\n  Total file lines      : 6955\n  Total file characters : 154740\n  \n  \n \nPAUL ALLEN WROTE THE NON-RUNTIME STUFF.\nBILL GATES WROTE THE RUNTIME STUFF.\nMONTE DAVIDOFF WROTE THE MATH PACKAGE.",
             "type": "asm",
             "history": "This formatting was created by an unpublished tool by David T. Craig, who published a lot of Apple-related soure code (Apple II, Apple III, Lisa) in this format in as early as 1993, first anonymously, later with his name).\nThe filename “david mac g5 b:m6502.asm” (disk name “david mac g5 b”, file name “m6502.asm”, since it was a classic Mac OS tool) confirms David Craig’s involvement, and it means the line numbers were added no earlier than 2003.\nGiven all this, it is safe to assume the file with the Microsoft BASIC for 6502 source originated at Apple, and was given to David Craig together with the other source he published.\nThe version I posted is a reconstruction of the original file, with the header, the footer and the line numbers removed, and the spaces converted back into tabs. I chose the name “M6502.MAC” to be consistent with the MACRO-10 file extension used by the Microsoft BASIC for 8080 sources.",
             "link": "https://www.pagetable.com/?p=774"
@@ -71,8 +76,16 @@
     const title = document.querySelector('#title');
     title.textContent = snippet.title;
 
-    const data = `\`\`\`${snippet.type}\n${snippet.code}\n\`\`\`\n`;
     const code = document.querySelector('#code');
-    code.textContent = data;
+    code.textContent = snippet.code;
+
+    const history = document.querySelector('#history');
+    history.textContent = snippet.history;
+
+    if(!(snippet.link === "")){
+        const link = document.querySelector('#link');
+        link.href = snippet.link;
+        link.textContent = '🔗 ' + snippet.link;
+    }
 
 </script>

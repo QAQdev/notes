@@ -1,6 +1,10 @@
 - 2023:
   - "2023-07-08":
     - newpage:
+        text: 回顾在软工的三年 -> life/past3years.md
+        href: /life/past3years/
+    - function: 一些有趣的历史性的代码片段 -> playground/historical_codes.md
+    - newpage:
         text: Kafka 学习笔记 -> tech/kafka/
         href: /tech/kafka/overview/
   - "2023-07-04":
