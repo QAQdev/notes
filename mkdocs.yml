@@ -24,6 +24,8 @@ nav:
     - Interns:
       - "life/interns/meituan.md"
     - life/past3years.md
+    - Citywalk:
+      - "life/citywalk/beijing.md"
   - Playground:
     - playground/index.md
     - playground/nasa.md

@@ -46,4 +46,4 @@ Kafka 集群由多个服务器组成，这些服务器被称为 **代理（Broke
 
 到目前为止，我们已经介绍了 Kafka 的所有基本概念，可以给出一张 Kafka 的整体架构图。
 
-<img class="general-img" src='https://www.researchgate.net/publication/360518587/figure/fig3/AS:1156303787438081@1652695714025/Apache-Kafka-architecture-with-mandatory-and-optional-services.ppm' alt='1Z8Z5u'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/8GFcfp.jpg' alt='8GFcfp'/>

@@ -59,7 +59,7 @@ Cartesian Products of $A_1, A_2, ..., A_n$ is $A_1 \times A_2 \times ... \times 
 ## Functions
 ### Basic Functions
 
-Let $f$ be a function from $A$to$B$and$S \subseteq A$, Denote the image of $S$ by $f(S)$, so that $f(S)=\{f(s) \mid s \in S\}$.
+Let $f$ be a function from $A$ to $B$ and $S \subseteq A$, Denote the image of $S$ by $f(S)$, so that $f(S)=\{f(s) \mid s \in S\}$.
 
 - $f(\varnothing) = \varnothing$ 
 - $f(\{a\})=\{f(a)\}$
