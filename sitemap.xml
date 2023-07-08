@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://qaqdev.github.io/life/citywalk/beijing/</loc>
+         <lastmod>2023-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://qaqdev.github.io/life/interns/meituan/</loc>
          <lastmod>2023-07-08</lastmod>
          <changefreq>daily</changefreq>
