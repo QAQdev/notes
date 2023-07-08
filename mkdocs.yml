@@ -28,6 +28,7 @@ nav:
     - playground/index.md
     - playground/nasa.md
     - playground/historical_codes.md
+    - playground/bored.md
   - About: about.md
 
 theme:
