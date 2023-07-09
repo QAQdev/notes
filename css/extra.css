@@ -10,6 +10,15 @@
     font-feature-settings: 'palt';
 }
 
+@font-face {
+    font-family: Fang-Zheng-Song;
+    src: url("./Fang Zheng Song.TTF");
+}
+
+.fang-zheng-song {
+    font-family: Fang-Zheng-Song, Noto-Serif-SC, serif
+}
+
 /* img 通用格式*/
 .general-img {
     display: block;
