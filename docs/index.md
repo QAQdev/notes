@@ -9,9 +9,9 @@ statistics: true
 
 !!! quote "一句"
     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <div class="fang-zheng-song" align="center" style="font-size:18px;" id="poem_sentence"></div>
+    <div class="qiji-combo" align="center" style="font-size:23px;" id="poem_sentence"></div>
     <br>
-    <div class="fang-zheng-song" align="right" style="font-size:13px;" id="poem_info"></div>
+    <div class="qiji-combo" align="right" style="font-size:18px;" id="poem_info"></div>
     <script type="text/javascript">
         jinrishici.load(function(result) {
             var sentence = document.querySelector("#poem_sentence")

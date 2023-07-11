@@ -19,6 +19,15 @@
     font-family: Fang-Zheng-Song, Noto-Serif-SC, serif
 }
 
+@font-face {
+    font-family: QiJi-Combo;
+    src: url("./qiji-combo.ttf");
+}
+
+.qiji-combo {
+    font-family: QiJi-Combo, Noto-Serif-SC, serif
+}
+
 /* img 通用格式*/
 .general-img {
     display: block;
