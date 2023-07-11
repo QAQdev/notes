@@ -3,16 +3,19 @@
 
 .ma-shan-zheng {
     font-family: 'Ma Shan Zheng', serif;
+    font-display: swap;
 }
 
 .noto-serif-sc {
     font-family: 'Noto Serif SC', serif;
     font-feature-settings: 'palt';
+    font-display: swap;
 }
 
 @font-face {
     font-family: Fang-Zheng-Song;
     src: url("./Fang Zheng Song.TTF");
+    font-display: swap;
 }
 
 .fang-zheng-song {
@@ -22,6 +25,7 @@
 @font-face {
     font-family: QiJi-Combo;
     src: url("./qiji-combo.ttf");
+    font-display: swap;
 }
 
 .qiji-combo {
