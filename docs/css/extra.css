@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: Fang-Zheng-Song;
-    src: url("https://github.com/QAQdev/custom-fonts/blob/master/Fang%20Zheng%20Song.TTF");
+    src: url("./Fang Zheng Song.TTF")format('truetype');
     font-display: swap;
 }
 
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: QiJi-Combo;
-    src: url("https://github.com/QAQdev/custom-fonts/blob/master/qiji-combo.ttf");
+    src: url("./qiji-combo.ttf")format('truetype');
     font-display: swap;
 }
 
