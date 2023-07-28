@@ -25,7 +25,7 @@ jobs:
       - run: pip install mkdocs-changelog-plugin
       - run: pip install mkdocs-extra-sass-plugin
       - run: pip install livereload
-      - run: echo 'oneko.zone' > ./CNAME
+      - run: echo 'oneko.zone' > ./build/CNAME
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
