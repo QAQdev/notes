@@ -2,6 +2,8 @@
 statistics: true
 ---
 
+<link rel="preload" href="#/docs/css/qiji-combo.ttf" as="font" type="font/ttf" crossorigin>
+
 # 欢迎进入 oneko verse！😼💻
 
 ??? oneko "oneko 出没"
