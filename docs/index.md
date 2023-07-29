@@ -2,8 +2,6 @@
 statistics: true
 ---
 
-<link rel="preload" href="#/docs/css/qiji-combo.ttf" as="font" type="font/ttf" crossorigin>
-
 # 欢迎进入 oneko verse！😼💻
 
 ??? oneko "oneko 出没"
@@ -18,6 +16,15 @@ statistics: true
         jinrishici.load(function(result) {
             var sentence = document.querySelector("#poem_sentence")
             var info = document.querySelector("#poem_info")
+            console.log(result.data.content)
+            // 按逗号分割句子
+            var sentences = result.data.content.split('，')
+            // 修改sentence[0]的最后一个字符为句号，删除sentence[1]的最后一个字符
+            sentences[0] = sentences[0].slice(0, -1) + '。'
+            sentences[1] = sentences[1].slice(0, -1)
+            console.log(sentences)
+            // 拼接起来写回result.data.content
+            result.data.content = sentences[0] + sentences[1]
             sentence.innerHTML = result.data.content
             info.innerHTML = result.data.origin.dynasty + ' ' + result.data.origin.author + '《' + result.data.origin.title + '》'
         });
