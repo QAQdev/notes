@@ -20,9 +20,8 @@ statistics: true
             // 按逗号分割句子
             var sentences = result.data.content.split('，')
             // 修改sentence[0]的最后一个字符为句号，删除sentence[1]的最后一个字符
-            sentences[0] = sentences[0].slice(0, -1) + '。'
-            sentences[1] = sentences[1].slice(0, -1)
-            console.log(sentences)
+            sentences[0] = sentences[0] + '。'
+            sentences[1] = sentences[1].slice(0, -1) + '。'
             // 拼接起来写回result.data.content
             result.data.content = sentences[0] + sentences[1]
             sentence.innerHTML = result.data.content
@@ -31,15 +30,15 @@ statistics: true
     </script>
 
 !!! note "杂谈"
-    <div class="fang-zheng-song" style="font-size:30px;padding: 0 15px;">
-        『
+    <div class="noto-serif-sc" style="font-size:30px;padding: 0 15px;">
+        ~『~
     </div>
     <div class="fang-zheng-song" style="font-family:;font-size:18px;padding: 0 70px;">
     那一天我二十一岁，在我一生的黄金时代。我有好多奢望。我想爱，想吃，还想在一瞬间变成天上半明半暗的云。后来我才知道，生活就是个缓慢受锤的过程，人一天天老下去，奢望也一天天消失，最后变得像挨了锤的牛一样。<br>
     可是我过二十一岁生日时没有预见到这一点。我觉得自己会永远生猛下去，什么也锤不了我。
     </div>
-    <div class="fang-zheng-song" align="right" style="font-size:30px;padding: 0 15px;">
-        』
+    <div class="noto-serif-sc" align="right" style="font-size:30px;padding: 0 15px;">
+        ~』~
     </div>     
 
 !!! success inline "语雀"

@@ -16,7 +16,6 @@ function fetchData() {
       .then(response => response.json())
       .then(data => {
         localStorage.setItem('apodData', JSON.stringify(data));
-        console.log("first time");
         displayData(data);
       });
   }
