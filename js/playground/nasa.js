@@ -23,7 +23,7 @@ function fetchData() {
 }
 
 function displayData(data) {
-  
+
   const img = document.createElement('img');
   img.src = data.hdurl;
   description = data.explanation;

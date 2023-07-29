@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: QiJi-Combo;
-    src: url("./qiji-combo.woff2") format('woff2');
+    src: url("./qiji-combo.woff") format('woff');
     font-display: swap;
 }
 
