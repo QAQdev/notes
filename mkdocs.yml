@@ -51,7 +51,6 @@ theme:
       danger: fontawesome/solid/virus
       bug: fontawesome/solid/bug
       example: fontawesome/solid/flask
-      # quote: material/format-quote-open
       quote: fontawesome/solid/quote-left
 
   custom_dir: overrides

@@ -5,7 +5,7 @@ statistics: true
 # 欢迎进入 oneko verse！😼💻
 
 ??? oneko "oneko 出没"
-    <center>在本页面上，**oneko** 会跟着你一块跑动！</center>
+    <center>在本页面上，oneko 会跟着你一块跑动！</center>
 
 !!! quote "一句"
     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
@@ -42,7 +42,7 @@ statistics: true
     </div>     
 
 !!! success inline "语雀"
-    - 最早的笔记是记录在语雀上的，但现在准备逐步迁移了！ 
+    - 最早的笔记是记录在语雀上的，但准备逐步迁移！ 
     - <div>
         <img src="https://dh.yunyingpai.com/wp-content/uploads/2022/01/4c427-www.yuque.com.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle">
         <div style="vertical-align: middle;display: inline-block;">
