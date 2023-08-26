@@ -1,24 +1,15 @@
 .md-typeset .admonition,
 .md-typeset details {
     border: none;
-    font-size: 85%;
-}
-
-.md-typeset .admonition,
-.md-typeset details {
+    font-size: medium;
     box-shadow: var(--md-shadow-z2);
-    font-size: 85%;
-}
-
-.md-typeset .admonition,
-.md-typeset details {
-    border: none;
 }
 
 .md-tabs__link {
-    margin-top: .8rem;
+    margin-top: .9rem;
     opacity: .4;
     font-family: var(--md-text-font-family);
+    font-size: medium;
 }
 
 /* 自定义 oneko */

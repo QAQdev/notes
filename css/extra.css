@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
 
 .ma-shan-zheng {
     font-family: 'Ma Shan Zheng', serif;
@@ -40,13 +41,20 @@
     width: 75%;
 }
 
+.md-ellipsis,
+h1,
+.headerlink {
+    font-size: larger;
+    font-family: 'ZCOOL XiaoWei';
+}
+
 .md-typeset h1,
 .md-typeset h2 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .md-typeset h3 {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .md-typeset h1,
@@ -54,6 +62,10 @@
 .md-typeset h3,
 .md-typeset h4 {
     letter-spacing: 0;
+}
+
+li {
+    line-height: 1.2;
 }
 
 .md-tabs__link--active,
@@ -73,10 +85,21 @@
     border-radius: 2px;
 }
 
-/* .md-typeset div.arithmatex {
+.md-typeset div.arithmatex {
     overflow-y: hidden;
-} */
+}
 
 .md-typeset :is(.emojione, .twemoji, .gemoji) {
     vertical-align: sub;
+}
+
+.md-typeset .md-button {
+    border: .15rem solid;
+    border-radius: .0rem;
+    color: var(--md-primary-fg-color);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: .225em 2em;
+    transition: color 125ms,background-color 125ms,border-color 125ms;
 }
