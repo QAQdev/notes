@@ -71,7 +71,7 @@ li {
 .md-tabs__link--active,
 .md-tabs__link:is(:focus, :hover) {
     color: inherit;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 .md-typeset details:not([open]) {
@@ -102,4 +102,33 @@ li {
     font-weight: 700;
     padding: .225em 2em;
     transition: color 125ms,background-color 125ms,border-color 125ms;
+}
+
+:root,
+[data-md-color-scheme=default] {
+    --md-default-fg-color: rgba(88, 63, 63, 0.78);
+    --md-default-fg-color--light: rgba(72, 52, 52, .54);
+    --md-default-fg-color--lighter: rgba(72, 52, 52, .32);
+    --md-default-fg-color--lightest: rgba(72, 52, 52, .27);
+    --md-default-bg-color: #faf7f4; 
+    --md-default-bg-color--light: hsla(0, 0%, 100%, 0.7);
+    --md-default-bg-color--lighter: hsla(0, 0%, 100%, .3);
+    --md-default-bg-color--lightest: hsla(0, 0%, 100%, .12);
+    --md-primary-fg-color: #5e91eb; /* 主色 */
+    --md-primary-fg-color--light: #ab9188;
+    --md-primary-fg-color--dark: #806b65;
+    --md-primary-bg-color: #eaeef1;
+    --md-primary-bg-color--light: hsla(0, 0%, 100%, .7);
+    --md-accent-fg-color: #5e91eb;
+    --md-accent-fg-color--light: #a4beeb;
+    --md-accent-fg-color--transparent: rgba(82, 108, 254, .1);
+    --md-accent-bg-color: #fff;
+    --md-accent-bg-color--light: hsla(0, 0%, 100%, .7);
+}
+
+:root,
+[data-md-color-scheme=slate] {
+    --md-primary-fg-color: #4684e1; /* 主色 */
+    --md-primary-bg-color: #eaeef1;
+    --md-primary-bg-color--light: hsla(0, 0%, 100%, .7);
 }
