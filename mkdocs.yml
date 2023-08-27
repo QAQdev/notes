@@ -1,9 +1,9 @@
-site_name: oneko verse
+site_name: oneko zone
 site_url: https://qaqdev.github.io/
 repo_name: QAQdev/something
 repo_url: https://github.com/qaqdev/qaqdev.github.io
 edit_uri: "tree/master/docs"
-site_description: oneko verse
+site_description: oneko 的空间
 copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
 
 nav:
@@ -30,7 +30,6 @@ nav:
     - playground/index.md
     - playground/nasa.md
     - playground/historical_codes.md
-    - playground/bored.md
   - About: about.md
 
 theme:
@@ -71,14 +70,12 @@ theme:
     code: Fira Code
   palette:
     - media: "(prefers-color-scheme: light)"
-      primary: blue
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     - media: "(prefers-color-scheme: dark)"
-      primary: blue
       scheme: slate
       toggle:
         icon: material/brightness-4

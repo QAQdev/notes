@@ -10,12 +10,8 @@
         </div>
     </div>
 
-
-
-
 !!! quote "APOD"
     <h3 style="text-align: center;font-weight:bold;" id="apod-title"></h3>
     <div style="text-align: right;font-style: italic" id="apod-date"></div>
-    > <div id="apod-desc"></div>
-
+    <p id="apod-desc"></p>
     <div id="apod-image"></div>

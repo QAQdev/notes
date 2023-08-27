@@ -2,7 +2,7 @@
 statistics: true
 ---
 
-# 欢迎进入 oneko verse！😼💻
+# 欢迎进入 oneko zone！😼💻
 
 ??? oneko "oneko 出没"
     <center>在本页面上，oneko 会跟着你一块跑动！</center>
@@ -21,11 +21,11 @@ statistics: true
             var sentences = result.data.content.split('，')
             // 修改sentence[0]的最后一个字符为句号，删除sentence[1]的最后一个字符
             sentences[0] = sentences[0] + '。'
-            sentences[1] = sentences[1].slice(0, -1) + '。'
+            sentences[1] = sentences[1].slice(0, -1)
             // 拼接起来写回result.data.content
             result.data.content = sentences[0] + sentences[1]
             sentence.innerHTML = result.data.content
-            info.innerHTML = result.data.origin.dynasty + ' ' + result.data.origin.author + '《' + result.data.origin.title + '》'
+            info.innerHTML = result.data.origin.dynasty + '·' + result.data.origin.author + ' ' + result.data.origin.title
         });
     </script>
 
