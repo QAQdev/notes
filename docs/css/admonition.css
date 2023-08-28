@@ -1,15 +1,15 @@
 .md-typeset .admonition,
 .md-typeset details {
     border: none;
-    font-size: medium;
+    font-size: 90%;
     box-shadow: var(--md-shadow-z2);
 }
 
 .md-tabs__link {
     margin-top: .9rem;
-    opacity: .4;
+    opacity: .5;
     font-family: var(--md-text-font-family);
-    font-size: medium;
+    font-size: 95%;
 }
 
 /* 自定义 oneko */

@@ -133,6 +133,7 @@ extra_css:
   - css/extra.css
   - css/changelog.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
 
 extra_javascript:
   - js/mathjax.js
