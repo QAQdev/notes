@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
 
 .ma-shan-zheng {
     font-family: 'Ma Shan Zheng', serif;
@@ -41,11 +40,9 @@
     width: 75%;
 }
 
-.md-ellipsis,
-h1,
-.headerlink {
-    font-size: larger;
-    font-family: 'ZCOOL XiaoWei';
+:root {
+    --md-text-font: 'Lato', "LXGW WenKai Screen";
+    --md-code-font: 'Fira Code'
 }
 
 .md-typeset h1,
@@ -58,7 +55,7 @@ h1,
 }
 
 li {
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .md-tabs__link--active,
