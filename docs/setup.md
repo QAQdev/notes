@@ -8,6 +8,7 @@
         - [Fontawesome](https://fontawesome.com/search?m=free)
     !!! tip "字体"
         - [Google Fonts](https://fonts.google.com/)
+        - [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 和其 css [引入方法](https://github.com/chawyehsu/lxgw-wenkai-webfont)
 
 !!! abstract "网站插件"
     - `search`: 网站搜索引擎插件，可以在 [这里](https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/) 找到教程
