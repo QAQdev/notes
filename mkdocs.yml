@@ -65,6 +65,9 @@ theme:
     - search.highlight
     - search.share
     - toc.follow # toc 跟随
+  font:
+    text: 'Lato'
+    code: 'Fira Code'
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
