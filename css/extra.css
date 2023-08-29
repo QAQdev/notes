@@ -100,11 +100,11 @@ li {
     --md-default-fg-color--light: rgba(59, 47, 42, 0.8);
     --md-default-fg-color--lighter: rgba(69, 57, 52, 0.6);
     --md-default-fg-color--lightest: rgba(79, 67, 62, 0.4);
-    --md-default-bg-color: #f0f0f4; 
+    --md-default-bg-color: #faf7ee; 
     --md-default-bg-color--light: hsla(0, 0%, 100%, 0.7);
     --md-default-bg-color--lighter: hsla(0, 0%, 100%, .3);
     --md-default-bg-color--lightest: hsla(0, 0%, 100%, .12);
-    --md-primary-fg-color: #5e91eb; /* 主色 */
+    --md-primary-fg-color: #5b93e6; /* 主色 */
     --md-primary-fg-color--light: #ab9188;
     --md-primary-fg-color--dark: #806b65;
     --md-primary-bg-color: #eaeef1;
