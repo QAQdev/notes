@@ -147,6 +147,7 @@ extra_javascript:
   - js/tablesort.js
   - js/oneko/oneko.js
   - js/playground/nasa.js
+  - js/webfontloader.min.js
 
 
 plugins:

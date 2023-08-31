@@ -9,6 +9,12 @@
     !!! tip "字体"
         - [Google Fonts](https://fonts.google.com/)
         - [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 和其 css [引入方法](https://github.com/chawyehsu/lxgw-wenkai-webfont)
+        - [QIJI-FONT (齊伋體)](https://qiji-font.netlify.app/)，一个古书扫描字体
+
+        <div style="width:100%; height:100%; overflow:hidden;">
+        <iframe src="https://qiji-font.netlify.app/" width="100%" height="600" style="border:none; transform:scale(1);" title="Iframe Example"></iframe>
+        </div>
+
 
 !!! abstract "网站插件"
     - `search`: 网站搜索引擎插件，可以在 [这里](https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/) 找到教程
