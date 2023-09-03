@@ -10,20 +10,9 @@
 ## 2023-07-01
 
 <figure markdown>
-  ![](https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/9pUG6v.jpg){width="500"} 
-  
-  ![](https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/CWLlcn.jpg){width="500"}
-
-  ![](https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/skHe80.jpg){width="500"}
-  
-  <figcaption>摄于天安门广场</figcaption>
-</figure> 
-
-<div class="grid cards" markdown>
-
-- :fontawesome-brands-html5: __HTML__ for content and structure
-- :fontawesome-brands-js: __JavaScript__ for interactivity
-- :fontawesome-brands-css3: __CSS__ for text running out of boxes
-- :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
-
-</div>
+  <img src="https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/9pUG6v.jpg" width="45%" style="display:inline-block">
+  <img src="https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/CWLlcn.jpg" width="45%" style="display:inline-block">
+  <br>
+  <img src="https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/skHe80.jpg" width="90%" style="display:inline-block">
+  <figcaption style="font-size:12pt">摄于天安门广场</figcaption>
+</figure>
