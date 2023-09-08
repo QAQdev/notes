@@ -1,4 +1,8 @@
 - 2023:
+  - "2023-09-09":
+    - newpage:
+        text: 朋友们！ -> flink.md
+        href: /flink/
   - "2023-07-08":
     - newpage:
         text: 在软工的三年 -> life/past3years.md

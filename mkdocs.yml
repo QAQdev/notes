@@ -10,6 +10,7 @@ nav:
   - 🚩 Home:
     - index.md
     - 🪜 起于累土: setup.md
+    - 🧩 朋友们！: flink.md
     - 📅 更新记录: recent.md
   - "@ZJU":
     - "zju/index.md"
@@ -132,6 +133,7 @@ extra_css:
   - css/admonition.css
   - css/extra.css
   - css/changelog.css
+  - css/flink.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
