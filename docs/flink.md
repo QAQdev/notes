@@ -26,7 +26,7 @@
                 <div class="flink-item-icon">
                     ![](https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif)
                 </div>
-            <a href="https://unicocn.github.io/" title="zicx 的博客" target="_blank">
+            <a href="https://zicx.top/notebook/" title="zicx 的笔记本 📒" target="_blank">
                 <div class="flink-item-name">zicx! zicx!</div>
                 <div class="flink-item-desc">旭宝！</div>
             </a>
