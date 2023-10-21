@@ -6,10 +6,10 @@
     text-align: center;
   }
   .flink-list a {
-    color: #4a4a4a;
+    color: rgb(76, 62, 55);
   }
   [data-md-color-scheme="slate"] .flink-list a {
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.8);
   }
   .flink-list-item {
     position: relative;
@@ -44,7 +44,7 @@
     font-size: 0.93em;
   }
   .flink-list-item:hover {
-    background-color: rgba(185, 169, 126, 0.1);
+    background-color: rgba(197, 184, 150, 0.1);
   }
   @media screen and (max-width: 1600px) {
     .flink-list-item {
