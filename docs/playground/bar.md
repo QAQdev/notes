@@ -1,10 +1,9 @@
 # Guo's Bar - Gigabytes
 
-在 2023.10.19 的晚上，Guo 将教超买来的伏特加和西柚味的水溶 C 按某种神奇的比例混在一起，加入了从奶茶店借来的冰块🧊 -> Well...Tasty!
-
 !!! warning "Warning"
+    <center>🙅🙅🙅未成年人不可饮酒哦！🙅🙅🙅</center>
 
-    <center>未成年人不可饮酒哦！</center>
+在 2023.10.19 的晚上，Guo 将教超买来的伏特加和西柚味的水溶 C 按某种神奇的比例混在一起，加入了从奶茶店借来的冰块🧊 -> Well...Tasty!
 
 Guo 决定，为伟大的调酒事业🥂做出一点贡献，于是有了👇🏻：
 
@@ -29,7 +28,7 @@ Guo 决定，为伟大的调酒事业🥂做出一点贡献，于是有了👇�
     |   中文名   | Name | 价格（元） |
     | ----------------- | --------------------------- | ------ |
     | 长岛冰茶 | Long Island Iced Tea | |
-    | 恋爱狂/恋爱脑 | | |
+    | 恋爱狂/恋爱脑 | Romantic | |
     | 玛格丽特 | Margarita (sour) | |
     | 莫吉托 | Mojito | |
     | 龙舌兰日出 | Tequila Sunrise | |
@@ -41,7 +40,7 @@ Guo 决定，为伟大的调酒事业🥂做出一点贡献，于是有了👇�
     | 椰林飘香 | Piña Colada | |
     | 自由古巴 | Cuba Libre | |
     | 金汤力 | Gin Tonic | |
-    | 金瑞奇 | Gin rickey | |
+    | 金利克 | Gin rickey | |
     | 雪国 | Yukiguni | |
     | 白雪公主 | White Lady | |
     | 破冰船 | Ice Breaker | |
@@ -50,3 +49,5 @@ Guo 决定，为伟大的调酒事业🥂做出一点贡献，于是有了👇�
     | 螺丝起子 | Screwdriver | |
     | 大总统 | El President | |
     | 橙花 | Orange Blossom | |
+
+所有酒品内测中，欢迎提供意见！
