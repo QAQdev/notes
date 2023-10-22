@@ -1,4 +1,8 @@
 - 2023:
+  - "2023-10-21":
+    - newpage:
+        text: 酒单~ -> bar.md
+        href: /playground/bar/
   - "2023-09-09":
     - newpage:
         text: 朋友们！ -> flink.md
