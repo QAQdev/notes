@@ -16,17 +16,20 @@ nav:
     - "zju/index.md"
     - 离散数学:
       - "zju/dm/ch2.md"
+      - "zju/dm/ch3.md"
+      - "zju/dm/ch4.md"
+      - "zju/dm/ch5.md"
+      - "zju/dm/ch6.md"
   - Tech:
     - Kafka:
       - "tech/kafka/overview.md"
       - "tech/kafka/concepts.md"
   - Life:
     - life/index.md
-    - Interns:
-      - "life/interns/meituan.md"
     - Citywalk:
       - "life/citywalk/beijing.md"
     - life/past3years.md
+    - Apply Season: life/apply.md
   - Playground:
     - playground/index.md
     - playground/nasa.md
