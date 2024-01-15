@@ -10,28 +10,28 @@
       
       
       
-        <link rel="canonical" href="https://qaqdev.github.io/tech/kafka/concepts/">
+        <link rel="canonical" href="https://qaqdev.github.io/tech/dev/kafka/overview/">
       
       
-        <link rel="prev" href="../overview/">
+        <link rel="prev" href="../../../../zju/dm/ch11/">
       
       
-        <link rel="next" href="../../../life/">
+        <link rel="next" href="../concepts/">
       
       
-      <link rel="icon" href="../../../static/logo.ico">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+      <link rel="icon" href="../../../../static/logo.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.4">
     
     
       
-        <title>1. Terms & Concepts - oneko zone</title>
+        <title>0. Meet Kafka - oneko zone</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
       
       
   
@@ -91,15 +91,15 @@
       
     
     
-      <link rel="stylesheet" href="../../../css/timeline.css">
+      <link rel="stylesheet" href="../../../../css/timeline.css">
     
-      <link rel="stylesheet" href="../../../css/admonition.css">
+      <link rel="stylesheet" href="../../../../css/admonition.css">
     
-      <link rel="stylesheet" href="../../../css/extra.css">
+      <link rel="stylesheet" href="../../../../css/extra.css">
     
-      <link rel="stylesheet" href="../../../css/changelog.css">
+      <link rel="stylesheet" href="../../../../css/changelog.css">
     
-      <link rel="stylesheet" href="../../../css/flink.css">
+      <link rel="stylesheet" href="../../../../css/flink.css">
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
     
@@ -107,7 +107,7 @@
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -143,7 +143,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1-terms--concepts" class="md-skip">
+        <a href="#0-meet-kafka" class="md-skip">
           跳转至
         </a>
       
@@ -157,7 +157,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../../.." title="oneko zone" class="md-header__button md-logo" aria-label="oneko zone" data-md-component="logo">
+    <a href="../../../.." title="oneko zone" class="md-header__button md-logo" aria-label="oneko zone" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 8-1.33.09C9.81 7.07 7.4 4.5 5 4.5c0 0-1.97 2.96-.04 6.91-.55.83-.89 1.26-.96 2.25l-1.93.29.21.98 1.76-.26.14.71-1.57.94.47.89 1.45-.89C5.68 18.76 8.59 20 12 20s6.32-1.24 7.47-3.68l1.45.89.47-.89-1.57-.94.14-.71 1.76.26.21-.98-1.93-.29c-.07-.99-.41-1.42-.96-2.25C20.97 7.46 19 4.5 19 4.5c-2.4 0-4.81 2.57-5.67 3.59L12 8m-3 3a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m6 0a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m-4 3h2l-.7 1.39c.2.64.76 1.11 1.45 1.11a1.5 1.5 0 0 0 1.5-1.5h.5a2 2 0 0 1-2 2c-.75 0-1.4-.41-1.75-1-.35.59-1 1-1.75 1a2 2 0 0 1-2-2h.5a1.5 1.5 0 0 0 1.5 1.5c.69 0 1.25-.47 1.45-1.11L11 14Z"/></svg>
@@ -177,7 +177,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1. Terms & Concepts
+              0. Meet Kafka
             
           </span>
         </div>
@@ -293,7 +293,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../.." class="md-tabs__link">
+        <a href="../../../.." class="md-tabs__link">
           
   
     
@@ -313,7 +313,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../zju/" class="md-tabs__link">
+        <a href="../../../../zju/" class="md-tabs__link">
           
   
     
@@ -342,8 +342,16 @@
   
     
     
+      
+  
+  
+    
+  
+  
+    
+    
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../overview/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
     
@@ -358,6 +366,9 @@
     
   
 
+    
+  
+
       
         
   
@@ -366,7 +377,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../life/" class="md-tabs__link">
+        <a href="../../../../life/" class="md-tabs__link">
           
   
     
@@ -386,7 +397,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../playground/" class="md-tabs__link">
+        <a href="../../../../playground/" class="md-tabs__link">
           
   
     
@@ -404,7 +415,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../about/" class="md-tabs__link">
+      <a href="../../../../about/" class="md-tabs__link">
         
   
     
@@ -438,7 +449,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="oneko zone" class="md-nav__button md-logo" aria-label="oneko zone" data-md-component="logo">
+    <a href="../../../.." title="oneko zone" class="md-nav__button md-logo" aria-label="oneko zone" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 8-1.33.09C9.81 7.07 7.4 4.5 5 4.5c0 0-1.97 2.96-.04 6.91-.55.83-.89 1.26-.96 2.25l-1.93.29.21.98 1.76-.26.14.71-1.57.94.47.89 1.45-.89C5.68 18.76 8.59 20 12 20s6.32-1.24 7.47-3.68l1.45.89.47-.89-1.57-.94.14-.71 1.76.26.21-.98-1.93-.29c-.07-.99-.41-1.42-.96-2.25C20.97 7.46 19 4.5 19 4.5c-2.4 0-4.81 2.57-5.67 3.59L12 8m-3 3a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m6 0a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m-4 3h2l-.7 1.39c.2.64.76 1.11 1.45 1.11a1.5 1.5 0 0 0 1.5-1.5h.5a2 2 0 0 1-2 2c-.75 0-1.4-.41-1.75-1-.35.59-1 1-1.75 1a2 2 0 0 1-2-2h.5a1.5 1.5 0 0 0 1.5 1.5c.69 0 1.25-.47 1.45-1.11L11 14Z"/></svg>
@@ -497,7 +508,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../.." class="md-nav__link ">
+            <a href="../../../.." class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -530,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../setup/" class="md-nav__link">
+      <a href="../../../../setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -551,7 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../flink/" class="md-nav__link">
+      <a href="../../../../flink/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -572,7 +583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../recent/" class="md-nav__link">
+      <a href="../../../../recent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -625,7 +636,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../zju/" class="md-nav__link ">
+            <a href="../../../../zju/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -670,6 +681,14 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -686,7 +705,7 @@
             
   
   <span class="md-ellipsis">
-    离散数学
+    Dicrete Mathemathics
   </span>
   
 
@@ -696,7 +715,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
-            离散数学
+            Dicrete Mathemathics
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -707,7 +726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zju/dm/ch2/" class="md-nav__link">
+      <a href="../../../../zju/dm/ch2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -728,7 +747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zju/dm/ch3/" class="md-nav__link">
+      <a href="../../../../zju/dm/ch3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -749,7 +768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zju/dm/ch4/" class="md-nav__link">
+      <a href="../../../../zju/dm/ch4/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -770,7 +789,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zju/dm/ch5/" class="md-nav__link">
+      <a href="../../../../zju/dm/ch5/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -791,11 +810,95 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zju/dm/ch6/" class="md-nav__link">
+      <a href="../../../../zju/dm/ch6/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Ch6. Counting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../zju/dm/ch8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ch8. Advanced Counting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../zju/dm/ch9/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ch9. Relations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../zju/dm/ch10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ch10. Graphs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../zju/dm/ch11/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ch11. Trees
   </span>
   
 
@@ -830,6 +933,8 @@
   
     
     
+      
+        
       
         
       
@@ -879,8 +984,6 @@
       
         
       
-        
-      
     
     
     
@@ -897,7 +1000,7 @@
             
   
   <span class="md-ellipsis">
-    Kafka
+    🛠️ Dev
   </span>
   
 
@@ -907,7 +1010,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            Kafka
+            🛠️ Dev
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -915,22 +1018,46 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../overview/" class="md-nav__link">
+  
+    
+    
+      
         
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_1" id="__nav_3_1_1_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
-    0. Meet Kafka
+    Kafka
   </span>
   
 
-      </a>
-    </li>
-  
-
-              
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Kafka
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -952,7 +1079,7 @@
           
   
   <span class="md-ellipsis">
-    1. Terms & Concepts
+    0. Meet Kafka
   </span>
   
 
@@ -963,7 +1090,7 @@
         
   
   <span class="md-ellipsis">
-    1. Terms & Concepts
+    0. Meet Kafka
   </span>
   
 
@@ -985,45 +1112,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#message--batch--消息--批次" class="md-nav__link">
+  <a href="#kafka-是什么" class="md-nav__link">
     <span class="md-ellipsis">
-      Message &amp; Batch | 消息 &amp; 批次
+      Kafka 是什么
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#schema--模式" class="md-nav__link">
+  <a href="#为什么需要-kafka" class="md-nav__link">
     <span class="md-ellipsis">
-      Schema | 模式
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#topic--partition--主题--分区" class="md-nav__link">
-    <span class="md-ellipsis">
-      Topic &amp; Partition | 主题 &amp; 分区
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#producer--consumer--生产者--消费者" class="md-nav__link">
-    <span class="md-ellipsis">
-      Producer &amp; Consumer | 生产者 &amp; 消费者
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#broker--cluster--代理--集群" class="md-nav__link">
-    <span class="md-ellipsis">
-      Broker &amp; Cluster | 代理 &amp; 集群
+      为什么需要 Kafka
     </span>
   </a>
   
@@ -1032,6 +1132,226 @@
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Terms & Concepts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    🔮 Research
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            🔮 Research
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Transformer
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Transformer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/transformer/paper_read/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Paper Reading
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Mixture of Experts (MoE)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Mixture of Experts (MoE)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/moe/paper_read/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Paper Reading
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -1089,7 +1409,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../life/" class="md-nav__link ">
+            <a href="../../../../life/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1142,7 +1462,7 @@
             
   
   <span class="md-ellipsis">
-    Citywalk
+    🚶‍♂️ Citywalk
   </span>
   
 
@@ -1152,7 +1472,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
-            Citywalk
+            🚶‍♂️ Citywalk
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1163,7 +1483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../life/citywalk/beijing/" class="md-nav__link">
+      <a href="../../../../life/citywalk/beijing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1192,7 +1512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../life/past3years/" class="md-nav__link">
+      <a href="../../../../life/past3years/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1213,7 +1533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../life/apply/" class="md-nav__link">
+      <a href="../../../../life/apply/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1249,10 +1569,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -1270,7 +1586,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../playground/" class="md-nav__link ">
+            <a href="../../../../playground/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1303,53 +1619,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../playground/nasa/" class="md-nav__link">
+      <a href="../../../../playground/nasa/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     NASA
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../playground/historical_codes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Historical Code Sinppets
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../playground/bar/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Guo's Bar - Gigabytes
   </span>
   
 
@@ -1373,7 +1647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/" class="md-nav__link">
+      <a href="../../../../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1413,45 +1687,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#message--batch--消息--批次" class="md-nav__link">
+  <a href="#kafka-是什么" class="md-nav__link">
     <span class="md-ellipsis">
-      Message &amp; Batch | 消息 &amp; 批次
+      Kafka 是什么
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#schema--模式" class="md-nav__link">
+  <a href="#为什么需要-kafka" class="md-nav__link">
     <span class="md-ellipsis">
-      Schema | 模式
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#topic--partition--主题--分区" class="md-nav__link">
-    <span class="md-ellipsis">
-      Topic &amp; Partition | 主题 &amp; 分区
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#producer--consumer--生产者--消费者" class="md-nav__link">
-    <span class="md-ellipsis">
-      Producer &amp; Consumer | 生产者 &amp; 消费者
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#broker--cluster--代理--集群" class="md-nav__link">
-    <span class="md-ellipsis">
-      Broker &amp; Cluster | 代理 &amp; 集群
+      为什么需要 Kafka
     </span>
   </a>
   
@@ -1475,34 +1722,31 @@
   
 
 
-<h1 id="1-terms--concepts">1. Terms &amp; Concepts<a class="headerlink" href="#1-terms--concepts" title="Permanent link">&para;</a></h1>
+<h1 id="0-meet-kafka">0. Meet Kafka<a class="headerlink" href="#0-meet-kafka" title="Permanent link">&para;</a></h1>
 <div style="margin-top: -30px; font-size: 0.75em; opacity: 0.7;">
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8V2m6.78 1a.69.69 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38-2.5-2.5Z"/></svg></span> 约 957 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"/></svg></span> 预计阅读时间 3 分钟</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8V2m6.78 1a.69.69 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38-2.5-2.5Z"/></svg></span> 约 502 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"/></svg></span> 预计阅读时间 2 分钟</p>
 </div>
-<h2 id="message--batch--消息--批次">Message &amp; Batch | 消息 &amp; 批次<a class="headerlink" href="#message--batch--消息--批次" title="Permanent link">&para;</a></h2>
-<p>Kafka 的数据单元被称为 <strong>消息（Message）</strong>，类似于数据库中的一行记录。消息由字节数组组成，可以包含任何内容。Kafka 没有对消息的格式和内容做任何限制，只是把它们当作字节数组来处理。</p>
-<p>消息有一个可选的键（Key）。对键的哈希值取模可以用来对消息进行分区，这样可以保证具有相同键的消息总是被写到相同的分区上。</p>
-<p>为了提高效率，消息被分批次写入 Kafka。<strong>批次（Batch）</strong> 就是一组消息，这些消息属于同一个主题（Topic）和分区（Partition）。</p>
-<h2 id="schema--模式">Schema | 模式<a class="headerlink" href="#schema--模式" title="Permanent link">&para;</a></h2>
-<p>为了更好地定义消息使得其易于理解，Kafka 支持消息的 <strong>模式（Schema）</strong>。</p>
-<p>模式是一个结构化的数据格式，它定义了消息的字段名称、类型和顺序。模式可以是 JSON、XML、Avro、Thrift、Protocol Buffers 等格式。</p>
-<h2 id="topic--partition--主题--分区">Topic &amp; Partition | 主题 &amp; 分区<a class="headerlink" href="#topic--partition--主题--分区" title="Permanent link">&para;</a></h2>
-<p>Kafka 的消息通过 <strong>主题（Topic）</strong> 进行分类。一个 Topic 可以被分为若干个 <strong>分区（Partition）</strong>。消息以 FIFO 的顺序写入分区。</p>
-<p>由于一个主题一般包含几个分区，因此无法在整个主题范围内保证消息的顺序，但可以保证消息在单个分区内的顺序。分区可以分布在不同的服务器上，也就是说一个主题可以横跨多个服务器。</p>
-<p><img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/4wuAyq.png' alt='4wuAyq'/></p>
-<h2 id="producer--consumer--生产者--消费者">Producer &amp; Consumer | 生产者 &amp; 消费者<a class="headerlink" href="#producer--consumer--生产者--消费者" title="Permanent link">&para;</a></h2>
-<p><strong>生产者（Producer）</strong> 创建消息。一般情况下，一个消息会被发布到一个特定的主题上。生产者在默认情况下把消息均衡地分布到主题的所有分区上，但也可以通过键和分区器（Partitioner）来写入到特定的分区。分区器为键生成一个哈希值，并将其映射到指定的分区上。生产者也可以使用自定义的分区器。</p>
-<p><strong>消费者（Consumer）</strong> 读取消息。消费者订阅一个或多个主题，并按照消息生成的顺序读取。消费者通过检查消息的偏移量（Offset）来区分已经读取过的消息。偏移量是一种元数据，它是一个递增的整数。在创建消息时，Kafka 为每条消息生成一个 <strong>在分区里唯一</strong> 的偏移量。</p>
-<p>多个消费者可以组成一个 <strong>消费者组（Consumer Group）</strong>。群组保证每个分区只能被一个消费者使用。</p>
-<p><img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/2SdiMu.png' alt='2SdiMu'/></p>
-<h2 id="broker--cluster--代理--集群">Broker &amp; Cluster | 代理 &amp; 集群<a class="headerlink" href="#broker--cluster--代理--集群" title="Permanent link">&para;</a></h2>
-<p>Kafka 集群由多个服务器组成，这些服务器被称为 <strong>代理（Broker）</strong>。代理保存消息的副本，并处理生产者和消费者的请求。每个代理都保存了一部分主题的分区副本，因此一个主题的所有分区可以分布在整个集群上。</p>
-<p>代理是 <strong>集群（Cluster）</strong> 的组成部分。每个集群都有一个代理充当集群控制器（Cluster Controller），控制器负责管理工作，包括将分区分配给代理和监控代理。</p>
-<p>每个分区都可以分配到多个代理上，其中一个代理成为分区的首领（Leader），其他的代理为跟随者（Follower）。这种复制机制（Replica）为分区提供了消息冗余，如果首领宕机，其他代理可以接管领导权。</p>
-<p><img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/dpgcmg.png' alt='dpgcmg'/></p>
-<p>保留消息（Retention）是 Kafka 的一个重要特性。代理的默认保留策略是要么保留一段时间（比如 7 天），要么保留到消息达到一定大小的字节数（比如 1GB）。当消息数量达到这些上限时，旧消息就会过期并被删除。</p>
-<p>到目前为止，我们已经介绍了 Kafka 的所有基本概念，可以给出一张 Kafka 的整体架构图。</p>
-<p><img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/8GFcfp.jpg' alt='8GFcfp'/></p>
+<details class="ref">
+<summary>Kafka: The Definitive Guide</summary>
+<p><center>
+    <img style="width:40%" src="https://www.oreilly.com/api/v2/epubs/9781491936153/files/assets/cover.png">
+</center>
+<center>
+    <a href="https://book.huihoo.com/pdf/confluent-kafka-definitive-guide-complete.pdf">[English Version]</a>
+    <a href="https://yun.weicheng.men/Book/Kafka%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97.pdf">[中文版]</a>
+</center></p>
+</details>
+<h2 id="kafka-是什么">Kafka 是什么<a class="headerlink" href="#kafka-是什么" title="Permanent link">&para;</a></h2>
+<p>Kafka 是一个分布式流媒体平台，它最初由 LinkedIn 公司发布，使用 Scala 语言编写，并于 2010 年 12 月份开源，成为 Apache 的顶级子项目。它是一个分布式、分区的、多副本的、多订阅者，基于 Zookeeper 协调的分布式日志系统，可作为消息中间件。它的目标是提供一个统一的、高吞吐量、低延迟的平台来处理实时数据流。它可以连接到外部系统（用于数据导入/导出）通过 Kafka Connect，并提供 Kafka Streams 库用于流处理应用程序。</p>
+<p>在我们平时的讨论里，Kafka 常常和 RabbitMQ、ActiveMQ 等消息队列一起讨论，但 Kafka 和这些传统的消息队列的区别是 Kafka 以集群的方式运行，其次 Kafka 提供了数据传递保证——可复制、持久化。</p>
+<h2 id="为什么需要-kafka">为什么需要 Kafka<a class="headerlink" href="#为什么需要-kafka" title="Permanent link">&para;</a></h2>
+<p>可能看了前面的简介，我们还是不知道 Kafka 是什么，以及为什么需要 Kafka。我们来看看一些真实的业务场景。</p>
+<p>首先我们需要了解一下发布与订阅消息系统（Publish/Subscribe Messaging）。一个典型的发布与订阅消息系统包含三个部分：发布者（Publisher）、订阅者（Subscriber）和代理（Broker）。发布者将消息发布到代理，订阅者从代理订阅消息。代理负责将消息传递给订阅者。</p>
+<p><img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/4dNFXI.png' alt='4dNFXI'/></p>
+<p>在真实的业务中，不同的部门可能存在互相独立的发布与订阅消息系统。</p>
+<p><img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/SidLoo.png' alt='SidLoo'/></p>
+<p>随着业务的增长，公司因此要为数据队列维护多个系统，此时，真正需要的是一个 <strong>单一的集中式</strong> 系统，它可以用来发布通用类型的数据。</p>
+<p>现在，结合前面的介绍，我们应该理解了为什么需要 Kafka 这样一个可以统一管理消息的基于发布与订阅的消息系统。</p>
 
 
 
@@ -1525,7 +1769,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">2023年7月9日 01:17:06</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">2024年1月15日 22:08:07</span>
   </span>
 
     
@@ -1674,18 +1918,18 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.code.copy", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "search.share", "toc.follow"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.annotate", "content.code.copy", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "search.share", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.c011b7c0.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.7389ff0e.min.js"></script>
       
-        <script src="../../../js/mathjax.js"></script>
+        <script src="../../../../js/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
-        <script src="../../../js/katex.js"></script>
+        <script src="../../../../js/katex.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
       
@@ -1693,13 +1937,13 @@
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
-        <script src="../../../js/tablesort.js"></script>
+        <script src="../../../../js/tablesort.js"></script>
       
-        <script src="../../../js/oneko/oneko.js"></script>
+        <script src="../../../../js/oneko/oneko.js"></script>
       
-        <script src="../../../js/playground/nasa.js"></script>
+        <script src="../../../../js/playground/nasa.js"></script>
       
-        <script src="../../../js/webfontloader.min.js"></script>
+        <script src="../../../../js/webfontloader.min.js"></script>
       
     
   </body>

@@ -86,17 +86,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://qaqdev.github.io/tech/kafka/concepts/</loc>
+         <loc>https://qaqdev.github.io/tech/dev/kafka/concepts/</loc>
          <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://qaqdev.github.io/tech/kafka/overview/</loc>
+         <loc>https://qaqdev.github.io/tech/dev/kafka/overview/</loc>
+         <lastmod>2024-01-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/tech/research/moe/paper_read/</loc>
+         <lastmod>2024-01-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/tech/research/transformer/paper_read/</loc>
          <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qaqdev.github.io/zju/</loc>
+         <lastmod>2024-01-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/zju/dm/ch10/</loc>
+         <lastmod>2024-01-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/zju/dm/ch11/</loc>
          <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -122,6 +142,16 @@
     </url>
     <url>
          <loc>https://qaqdev.github.io/zju/dm/ch6/</loc>
+         <lastmod>2024-01-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/zju/dm/ch8/</loc>
+         <lastmod>2024-01-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qaqdev.github.io/zju/dm/ch9/</loc>
          <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
