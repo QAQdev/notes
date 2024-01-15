@@ -14,27 +14,37 @@ nav:
     - 📅 更新记录: recent.md
   - "@ZJU":
     - "zju/index.md"
-    - 离散数学:
+    - Dicrete Mathemathics:
       - "zju/dm/ch2.md"
       - "zju/dm/ch3.md"
       - "zju/dm/ch4.md"
       - "zju/dm/ch5.md"
       - "zju/dm/ch6.md"
+      - "zju/dm/ch8.md"
+      - "zju/dm/ch9.md"
+      - "zju/dm/ch10.md"
+      - "zju/dm/ch11.md"
   - Tech:
-    - Kafka:
-      - "tech/kafka/overview.md"
-      - "tech/kafka/concepts.md"
+    - 🛠️ Dev:
+      - Kafka:
+        - "tech/dev/kafka/overview.md"
+        - "tech/dev/kafka/concepts.md"
+    - 🔮 Research:
+      - Transformer:
+        - "tech/research/transformer/paper_read.md"
+      - Mixture of Experts (MoE):
+        - "tech/research/moe/paper_read.md"
   - Life:
     - life/index.md
-    - Citywalk:
+    - 🚶‍♂️ Citywalk:
       - "life/citywalk/beijing.md"
     - life/past3years.md
     - Apply Season: life/apply.md
   - Playground:
     - playground/index.md
     - playground/nasa.md
-    - playground/historical_codes.md
-    - playground/bar.md
+    # - playground/historical_codes.md
+    # - playground/bar.md
   - About: about.md
 
 theme:
