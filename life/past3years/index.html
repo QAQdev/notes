@@ -1705,7 +1705,6 @@
     data-input-position="top"
     data-theme="noborder_light"
     data-lang="zh-CN"
-    data-loading="lazy"
     crossorigin="anonymous"
     async>
 </script>
@@ -1717,7 +1716,7 @@
     /* Set palette on initial load */
     var palette = __md_get("__palette")
     if (palette && typeof palette.color === "object") {
-      var theme = "light"
+      var theme = palette.color.scheme === "default" ? "light" : "noborder_dark"
       giscus.setAttribute("data-theme", theme) 
     }
 
@@ -1728,6 +1727,7 @@
         var palette = __md_get("__palette")
         if (palette && typeof palette.color === "object") {
           var theme = palette.color.scheme === "default" ? "light" : "noborder_dark"
+          localStorage.setItem("data-md-color-scheme", palette.color.scheme === "default" ? "light" : "noborder_dark");
 
           /* Instruct Giscus to change theme */
           var frame = document.querySelector(".giscus-frame")
