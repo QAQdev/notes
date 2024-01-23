@@ -3,8 +3,8 @@ site_url: https://qaqdev.github.io/
 repo_name: QAQdev/something
 repo_url: https://github.com/qaqdev/qaqdev.github.io
 edit_uri: "tree/master/docs"
-site_description: oneko 的空间
-copyright: Copyright &copy; 2023-2024 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
+site_description: Keep records of my life, research and work
+copyright: Copyright &copy; 2024-2025 <a href="https://github.com/QAQdev" target="_blank" rel="noopener">oneko</a>
 
 nav:
   - 🚩 Home:
