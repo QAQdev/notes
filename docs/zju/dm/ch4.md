@@ -93,7 +93,7 @@ private List<Integer> breakdown(int n) {
     - $x,y$ 叫做 Bézout 系数
 - 给出 $a,b$，求解 Bézout 系数（求出 $a,b$ 的 linear combination）可以用扩展欧几里得算法。其实在使用 GCD 的时候逆推就可以得到一组特解
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/hlafEZ.png' alt='hlafEZ'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/hlafEZ.png' alt='hlafEZ'/>
 
 ## Solving Linear Congruences
 
@@ -105,7 +105,7 @@ private List<Integer> breakdown(int n) {
     - 若 $\gcd(a,m)=1$，根据裴蜀定理，我们有 $sa+tm=1$，两边对 $m$ 取模，则有 $sa\equiv 1\,(\bmod \,m)$，那么 $s$ 即为数论倒数。由此可以看到，求解数论倒数和裴蜀定理息息相关
 - 例如求 101 modulo 4620 的数论倒数（1601）
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/ec5DHD.png' alt='ec5DHD'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/ec5DHD.png' alt='ec5DHD'/>
 
 - 现在，如何求解线性同余方程？
     - 我们有 $\bar a a\equiv 1\,(\bmod\, m)$ 和 $ax\equiv b\,(\bmod \,m)$，两边同乘 $\bar a$ 得到 $x\equiv b\bar a\,(\bmod \,m)$

@@ -13,7 +13,7 @@
 
 ??? tip "Proof"
 
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/64zSJG.png' alt='64zSJG'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/64zSJG.png' alt='64zSJG'/>
 
 ### Linear, Nonhomogeneous, Degree k, Constant Coefficients
 
@@ -39,7 +39,7 @@
 
 ??? tip "Facts"
 
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/oA2jiR.png' alt='oA2jiR'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/oA2jiR.png' alt='oA2jiR'/>
 
 ### Useful Facts
 
@@ -53,8 +53,8 @@
 
 ??? tip "Facts"
 
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/87uVBr.png' alt='87uVBr'/>
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/RVwXwC.png' alt='RVwXwC'/>
+    <img class="general-img"src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/87uVBr.png' alt='87uVBr'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/RVwXwC.png' alt='RVwXwC'/>
 
 ## Extended Binomial Coefficients
 
@@ -84,8 +84,8 @@ TODO
 
 ??? example "一个例子"
 
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/6ApD8c.png' alt='6ApD8c'/>
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/bh3vRR.png' alt='bh3vRR'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/6ApD8c.png' alt='6ApD8c'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/bh3vRR.png' alt='bh3vRR'/>
 
 ## Inculsion & Exclusion
 
@@ -95,7 +95,7 @@ TODO
 
 ??? tip "Proof"
 
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/6JPkNU.png' alt='6JPkNU'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/6JPkNU.png' alt='6JPkNU'/>
 
 - 一般使用场景是「正难则反」
 - 即用总数减去具有某些性质的计数结果
@@ -113,7 +113,7 @@ TODO
         - 答案为总数减去所有具有 $P_i$ 的个数
         - 例如 $C(n,1)\cdot (n-1)^m$ 表示 $B$ 中有一个元素没有被 $A$ 映射是 $C(n,1)$，剩下 $n-1$ 个元素被 $A$ 中的所有元素映射
 
-          <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/A8hHW2.png' alt='A8hHW2'/>
+          <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/A8hHW2.png' alt='A8hHW2'/>
 
         - Assign m different jobs to n different employees if every employee is assigned at least one job.
     
@@ -125,6 +125,6 @@ TODO
     === "完全错排（Derangement）[🔗](https://zh.wikipedia.org/wiki/%E9%94%99%E6%8E%92%E9%97%AE%E9%A2%98)"
         - 令 $P_i$ 为元素 $i$ 在原来的位置上
          
-        <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/xUIywR.png' alt='xUIywR'/>
+        <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/xUIywR.png' alt='xUIywR'/>
 
         - $D_n=n!\left[1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+...+(-1)^n\frac{1}{n!}  \right]$

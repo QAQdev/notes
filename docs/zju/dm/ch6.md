@@ -6,7 +6,7 @@
 - If $N$ objects are placed into $k$ boxes, then there is at least one box containing at least $\lceil {\frac{N}{k}} \rceil$ objects.
 - prased to terms of functions:
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/F48vZj.png' alt='F48vZj'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/F48vZj.png' alt='F48vZj'/>
 
 ## Ramsey Number
 

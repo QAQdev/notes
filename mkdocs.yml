@@ -15,6 +15,7 @@ nav:
   - "@ZJU":
     - "zju/index.md"
     - Dicrete Mathemathics:
+      - "zju/dm/index.md"
       - "zju/dm/ch2.md"
       - "zju/dm/ch3.md"
       - "zju/dm/ch4.md"

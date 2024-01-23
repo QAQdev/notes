@@ -15,13 +15,13 @@
 ## Representing Relations
 
 === "2D Table"
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/BKSA6k.png' alt='BKSA6k'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/BKSA6k.png' alt='BKSA6k'/>
 
 === "Connection Matrix"
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/0Ygsbj.png' alt='0Ygsbj'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/0Ygsbj.png' alt='0Ygsbj'/>
 
 === "Directed graph/Digraph"
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/jHdnT2.png' alt='jHdnT2'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/jHdnT2.png' alt='jHdnT2'/>
 
 ## Special Properties of Binary Relations
 
@@ -85,7 +85,7 @@
 - **[Theorem]** The relation $R$ on a set A is transitive iff $R^n\subseteq R$, $n=1,2,3,...$
 
 ??? tip "Proof"
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/3GPI7g.png' alt='3GPI7g'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/3GPI7g.png' alt='3GPI7g'/>
   
 
 ### Inverse - $R^{-1}$
@@ -148,22 +148,22 @@
     - $W_k$ 的定义是：对于 $W_k$ 中的每一个 $w_{ij}^{(k)}$，若存在一条从 $v_i$ 到 $v_j$ 的路径，且其内部点均在 $\{v_1,v_2,...,v_k\}$ 中，那么 $w_{ij}^{(k)}=1$，否则为 0
     - $W_k$ 可以由 $W_{k-1}$ 计算，考虑两种情况：
     === "没有用到 $v_k$"
-        <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/Svizoi.png' alt='Svizoi'/>
+        <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/Svizoi.png' alt='Svizoi'/>
     === "用到了 $v_k$，$v_k$ 为其中一点"
-        <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/Hkoi6q.png' alt='Hkoi6q'/>
+        <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/Hkoi6q.png' alt='Hkoi6q'/>
 
     - 因此，从 $W_{k-1}$ 计算 $W_k$ 的方法是：$w_{ij}^{(k)}=w_{ij}^{(k-1)}\vee(w_{ik}^{(k-1)}\land w_{kj}^{(k-1)})$，时间复杂度为 $O(n^3)$
     - 从关系矩阵上来看，计算方法表现为要么 $w_{ij}^{(k-1)}$ 为 1，要么从对角线扫描行列，确定是否同时 1（如下图 **红线** 所示）
     
     !!! example "一个例子"
-        <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/Dw6gu0.png' alt='Dw6gu0'/>
+        <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/Dw6gu0.png' alt='Dw6gu0'/>
 
 ## Equivalence Relations
 
 - **Definition**: reflexive & symmetric & transitive
 - $a \sim b$: $a$ and $b$ are equivalent
 - $\left[ x \right]_R ,\, \left[ x \right]$: the equivalence class of $x$
-- **[Theorem]** $R$ is an equivalence relation on a set $A$, then $aRb\Leftrightarrow \left[ a \right] = \left[ b \right] \Leftrightarrow \left[ a \right] \cap \left[ b \right] \neq \varnothing$
+- **Theorem** $R$ is an equivalence relation on a set $A$, then $aRb\Leftrightarrow \left[ a \right] = \left[ b \right] \Leftrightarrow \left[ a \right] \cap \left[ b \right] \neq \varnothing$
 
 ## Partitions
 
@@ -212,7 +212,7 @@
 
 ### Lexicographic Order (字典序)
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/pqS637.png' alt='pqS637'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/pqS637.png' alt='pqS637'/>
 
 ### Hasse Diagram (哈斯图)
 
@@ -221,54 +221,54 @@
      
     1. 用有向图表示出所有的关系
     
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/sYkJwE.png' alt='sYkJwE'/>
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/sYkJwE.png' alt='sYkJwE'/>
 
     2. 删除自环
 
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/TfvSdD.png' alt='TfvSdD'/> 
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/TfvSdD.png' alt='TfvSdD'/> 
     
     4. 删除可以通过传递性得到的边
     
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/SJ9FZn.png' alt='SJ9FZn'/>
+    <img class="general-img" class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/SJ9FZn.png' alt='SJ9FZn'/>
 
     5. 转为无向图
 
-    <img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/kwdSOx.png' alt='kwdSOx'/> 
+    <img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/kwdSOx.png' alt='kwdSOx'/> 
 
 ### chain and antichain
 
 - **totally ordered set $\Leftrightarrow$ chain (任意两个元素可以比较)**
 - **antichain (任意两个不同元素都不可比较)**
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/ZMZg22.png' alt='ZMZg22'/> 
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/ZMZg22.png' alt='ZMZg22'/> 
 
 - 例如 30 的因数整除关系，$\{1,2,6,30\}$ 是一个 chain，$\{ 2,3,5 \}$ 是 antichain
 
 ### Maximal and Minimal Elements (极大值、极小值)
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/diObV8.png' alt='diObV8'/>
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/VN41kC.png' alt='VN41kC'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/diObV8.png' alt='diObV8'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/VN41kC.png' alt='VN41kC'/>
 
 ### Greatest and Least Element (最大值、最小值)
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/dBsCxm.png' alt='dBsCxm'/>
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/h96A4u.png' alt='h96A4u'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/dBsCxm.png' alt='dBsCxm'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/h96A4u.png' alt='h96A4u'/>
 
 - 最大值、最小值如果存在，那么是唯一的
 
 ### Upper and Lower Bounds (上、下界)
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/CXw1Jo.png' alt='CXw1Jo'/>
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/VLVfwC.png' alt='VLVfwC'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/CXw1Jo.png' alt='CXw1Jo'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/VLVfwC.png' alt='VLVfwC'/>
 
 ### Least Upper and Greatest Lower Bounds (最小上界、最大下界)
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/CcNXna.png' alt='CcNXna'/>
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/FTzo3h.png' alt='FTzo3h'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/CcNXna.png' alt='CcNXna'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/FTzo3h.png' alt='FTzo3h'/>
 
 ## Well-ordered Sets (良序集)
 
-<img src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/jFAwlW.png' alt='jFAwlW'/>
+<img class="general-img" src='https://raw.githubusercontent.com/QAQdev/Pics/master/uPic/jFAwlW.png' alt='jFAwlW'/>
 
 - well-ordered $\Rightarrow$ totally ordered (良序推全序)
 
