@@ -122,7 +122,7 @@ private List<Integer> breakdown(int n) {
     - $M_1=35,M_2=21,M_3=15$
     - 分别求解 $M_1\bmod\,3$ 的逆、$M_2\bmod\,5$ 的逆、$M_3\bmod\,7$ 的逆
     - 分别是 2、1、1
-    - $x=2\cdot 35\cdot 3+1\cdot 21\cdot 5+1\cdot 15\cdot 7=233\equiv23\,(\bmod\, 105)$
+    - $x=2\cdot 35\cdot 2+1\cdot 21\cdot 3+1\cdot 15\cdot 2=233\equiv23\,(\bmod\, 105)$ (感谢 [@CYH0415](https://github.com/CYH0415) 纠错)
 
 ## Fermat's Little Theorem
 
