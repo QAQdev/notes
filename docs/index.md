@@ -4,11 +4,14 @@ statistics: true
 
 # 欢迎进入 oneko zone！😼💻
 
-!!! oneko "oneko 出没"
+!!! oneko "🎓😼"
+    <center>我有自己的学术主页了！👉 https://qaqdev.github.io/<center>
+
+<!-- !!! oneko "oneko 出没"
     <center>
     在本页面上，oneko 会跟着你一块跑动！
     <span style="color: maroon;">新年快乐！！！🧧🎁🥳</span>
-    </center>
+    </center> -->
 
 
 ??? quote "一句"
